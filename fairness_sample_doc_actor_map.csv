@@ -1,0 +1,53 @@
+doc_id,matched_title,actor_type,compound_sector,match_score,needs_review
+6,Human rights in the age of Artificial Intelligence,civil society,False,0.99,False
+8,Europe’s approach to artificial intelligence: how AI strategy is evolving,civil society,False,0.316,True
+16,"AI Strategy 2019 – AI for Everyone: People, Industries, Regions and Governments",,False,0.058,True
+17,AI Now Report 2016. The Social and Economic Implications of Artificial Intelligence Technologies in the Near-Term,civil society,False,0.111,True
+38,Artificial Intelligence. Australia's Ethics Framework. A discussion paper,national authority,False,0.588,True
+40,Governance of Artificial Intelligence in Finance,civil society,False,0.43,True
+47,Regulating AI to protect the consumer: Position Paper on the AI Act,civil society,False,0.215,True
+52,Review into Bias in Algorithmic Decision-making,national authority,False,0.847,False
+65,Intel’s AI Privacy Policy White Paper. Protecting individuals’ privacy and data in the artificial intelligence world,private sector,False,0.445,True
+69,"Human Rights, Democracy, and the Rule of Law Assurance Framework for AI Systems: A proposal prepared for the Council of Europe’s Ad hoc Committee on Artificial Intelligence",national authority,True,0.135,True
+71,"AI Strategy 2019 – AI for Everyone: People, Industries, Regions and Governments",,False,0.079,True
+73,Report on preventing discrimination caused by the use of artificial intelligence,international organisation,False,0.085,True
+82,Study on the relevance and impact of artificial intelligence for company law and corporate governance,international organisation,False,0.259,True
+83,"Artificial Intelligence and Education: A critical view through the lens of human rights, democracy and the rule of law",international organisation,False,0.97,False
+87,Study on the Human Rights Dimensions of Automated Data Processing techniques,international organisation,False,0.465,True
+94,"Human Rights, Democracy, and the Rule of Law Assurance Framework for AI Systems: A proposal prepared for the Council of Europe’s Ad hoc Committee on Artificial Intelligence",national authority,True,0.057,True
+110,National Strategy on AI,,False,0.627,True
+135,Assessment List for Trustworthy Artificial Intelligence (ALTAI) for self-assessment,international organisation,False,0.405,True
+136,The role of Artificial Intelligence in the European Green Deal,international organisation,False,0.461,True
+138,Measuring the environmental impacts of artificial intelligence compute and applications - The AI Footprint,international organisation,False,0.445,True
+148,"National strategies on Artificial Intelligence: A European perspective, 2021 edition",international organisation,False,0.773,False
+160,A governance framework for algorithmic accountability and transparency,international organisation,False,0.386,True
+161,AI and digital tools in workplace management and evaluation: An assessment of EU's legal framework,international organisation,False,0.459,True
+163,Artificial Intelligence: open questions about gender inclusion,civil society,False,0.278,True
+165,Summary of the NATO Artificial Intelligence Strategy,international organisation,False,0.251,True
+168,Auditing the quality of datasets used in algorithmic decision-making systems,international organisation,False,0.412,True
+173,Digital automation and the future of work,international organisation,False,0.156,True
+176,Comprehensive European industrial policy on artificial intelligence and robotics,international organisation,False,0.092,True
+179,Multilateral initiatives for upholding human rights in digital technologies: A task for the UN or for liberal democracies?,international organisation,False,0.094,True
+183,"Report with recommendations to the Commission on a framework of ethical aspects of artificial intelligence, robotics and related technologies",international organisation,False,0.326,True
+187,Regulatory Technology for the 21st Century,civil society,False,0.137,True
+192,Study on the impact of Artificial Intellgience on the infrigement and enforcement of copyrights and designs,international organisation,False,0.691,False
+193,"Facial Recognition Technology and the Growing Power of Artificial Intelligence: Report of the Standing Committee on Access to Information, Privacy and Ethics",national authority,False,0.35,True
+201,How can humans keep the upper hand? Report on the ethical matters raised by algorithms and artificial intelligence - Comment permettre à l’Homme de garder la main ? Rapport sur les enjeux éthiques des algorithmes et de l’intelligence artificielle,,False,0.332,True
+207,Getting the future right – Artificial intelligence and fundamental rights,international organisation,False,0.904,False
+212,Automated Decision-Making Under the GDPR: Practical Cases from Courts and Data Protection Authorities,civil society,False,0.967,False
+218,2022 AI Principles Progress Update,private sector,False,0.971,False
+223,Building a National AI Research Resource: A Blueprint for the National Research Cloud  National  AI Research  Resource: A Blueprint for  the National  Research Cloud,academia,False,0.523,True
+227,Advancing AI ethics beyond compliance From principles to practice,private sector,False,0.85,False
+256,,,False,0.0,True
+264,Governance Guidelines for Implementation of AI Principles,national authority,False,0.481,True
+269,For a meaningful Artificial Intelligence. Towards a French and European strategy,national authority,False,0.216,True
+272,Artificial Intelligence Risk Management Framework (AI RMF 1.0),national authority,False,0.899,False
+273,Four Principles of Explainable Artificial Intelligence,national authority,False,0.317,True
+274,Towards a Standard for Identifying and Managing Bias in Artificial Intelligence Managing Bias in Artificial Intelligence,national authority,False,0.479,True
+350,"Human Rights, Democracy, and the Rule of Law Assurance Framework for AI Systems: A proposal prepared for the Council of Europe’s Ad hoc Committee on Artificial Intelligence",national authority,True,0.935,True
+351,Understanding Artificial Intelligence and Safety - A guide for the responsible design and implementation of AI systems in the public sector,national authority,True,0.83,True
+377,Tieto’s AI ethics guidelines,private sector,False,0.121,True
+417,Input on the European Commission White Paper “On Artificial Intelligence – A European approach to excellence and trust”,academia,False,0.551,True
+418,Draft report on artificial intelligence in a digital age,,False,0.583,True
+428,Guidelines for AI procurement,civil society,False,0.682,False
+429,White Paper: How to Prevent Discriminatory Outcomes in Machine Learning,,False,0.697,True

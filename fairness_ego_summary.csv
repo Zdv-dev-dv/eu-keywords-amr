@@ -1,0 +1,107 @@
+node_id,sample_id,doc_id,keyword_concept,position,n_parents,n_children,n_siblings,parent_rels,parent_concepts,child_rels,sibling_concepts,r1_nodes,r2_nodes,r3_nodes,actor_type
+s000#0,s000,161,fairness,leaf,2,0,3,"[':op1', ':ARG1']","['and', 'mean-01']",[],"['deploy-01', 'and', 'and']",3,7,15,international organisation
+s001#0,s001,52,fairness,leaf,1,0,2,[':ARG1'],['mean-01'],[],"['thing', 'we']",2,4,6,national authority
+s002#0,s002,69,fair-01,leaf,1,0,3,[':op3'],['and'],[],"['diversity', 'discriminate-01', '5']",2,6,15,national authority
+s003#0,s003,82,fairness,leaf,1,0,2,[':op2'],['and'],[],"['right-05', 'accountable-02']",2,6,9,international organisation
+s004#0,s004,135,fair-01,leaf,1,0,2,[':ARG1'],['define-01'],[],"['thing', 'you']",2,4,6,international organisation
+s005#0,s005,272,fairness,leaf,1,0,2,[':op1'],['and'],[],"['value', 'domain']",2,5,9,national authority
+s006#0,s006,187,fair-01,leaf,1,0,1,[':ARG1'],['define-01'],[],['thing'],2,3,6,civil society
+s007#0,s007,52,fairness,leaf,1,0,2,[':op1'],['and'],[],"['accountable-02', 'transparency']",2,5,7,national authority
+s008#0,s008,87,fairness,leaf,1,0,3,[':op3'],['and'],[],"['transparency', 'loyal-01', 'law']",2,5,8,international organisation
+s010#0,s010,138,fairness,leaf,1,0,4,[':op1'],['and'],[],"['explain-01', 'transparency', 'robustness', 'know-01']",2,7,11,international organisation
+s011#0,s011,201,fair-01,internal,1,1,1,[':op1'],['and'],[':ARG1'],['accountable-02'],3,8,13,
+s011#1,s011,201,fair-01,internal,1,1,2,[':op1'],['and'],[':ARG1'],"['accountable-02', 'they']",3,7,13,
+s012#0,s012,212,fair-01,internal,1,1,1,[':ARG0'],['depend-01'],[':ARG1'],['factor'],3,6,9,civil society
+s013#0,s013,17,fairness,internal,1,1,1,[':ARG1'],['approach-02'],[':mod'],['this'],3,5,7,civil society
+s014#0,s014,350,fairness,leaf,1,0,3,[':op2'],['and'],[],"['reason-01', 'equity', 'possible-01']",2,6,10,national authority
+s015#0,s015,183,fairness,leaf,1,0,6,[':op5'],['and'],[],"['include-01', 'democracy', 'plurality', 'solidarity', 'equal-01', 'cooperate-01']",2,9,12,international organisation
+s017#0,s017,176,fairness,leaf,1,0,4,[':op4'],['relate-01'],[],"['issue-02', 'and', 'explain-01', 'accountable-02']",2,6,8,international organisation
+s018#0,s018,160,fairness,leaf,1,0,0,[':ARG1'],['sense-01'],[],[],2,4,7,international organisation
+s018#1,s018,160,fairness,leaf,1,0,2,[':ARG1'],['operate-01'],[],"['we', 'program-01']",2,5,8,international organisation
+s019#0,s019,135,fairness,leaf,1,0,2,[':op3'],['and'],[],"['diversity', 'discriminate-02']",2,6,14,international organisation
+s020#0,s020,223,fairness,leaf,1,0,0,[':ARG1'],['assess-01'],[],[],2,3,5,academia
+s021#0,s021,218,fair-01,leaf,1,0,2,[':ARG0'],['issue-02'],[],"['and', 'potential']",2,5,9,private sector
+s022#0,s022,65,fairness,leaf,1,0,2,[':op1'],['and'],[],"['well-09', 'quality']",2,5,8,private sector
+s023#0,s023,418,fairness,leaf,1,0,1,[':mod'],['topic'],[],['ethics'],2,4,5,
+s024#0,s024,187,fairness,leaf,1,0,0,[':mod'],['constraint'],[],[],2,3,4,civil society
+s025#0,s025,82,fairness,leaf,1,0,2,[':op1'],['risk-01'],[],"['right-05', 'and']",2,5,7,international organisation
+s026#0,s026,47,fairness,leaf,1,0,2,[':op1'],['and'],[],"['accountable-02', 'transparency']",2,5,6,civil society
+s027#0,s027,148,fairness,leaf,1,0,6,[':op3'],['and'],[],"['right-05', 'privacy', 'bias-01', 'and', 'safe-01', 'accountable-02']",2,9,15,international organisation
+s028#0,s028,193,fairness,leaf,1,0,1,[':op1'],['and'],[],['safe-01'],2,4,5,national authority
+s029#0,s029,179,fairness,leaf,1,0,1,[':op1'],['and'],[],['discriminate-01'],2,4,7,international organisation
+s030#0,s030,17,fairness,leaf,1,0,0,[':ARG0'],['issue-02'],[],[],2,3,6,civil society
+s030#1,s030,17,fairness,leaf,3,0,3,"[':op1', ':mod', ':mod']","['and', 'metric', 'algorithm']",[],"['community', 'accountable-02', 'transparency']",4,8,13,civil society
+s031#0,s031,193,fair-01,leaf,1,0,1,[':op2'],['and'],[],['effective-04'],2,4,5,national authority
+s032#0,s032,160,fairness,leaf,1,0,1,[':op2'],['and'],[],['responsible-02'],2,4,5,international organisation
+s033#0,s033,428,fair-01,leaf,1,0,0,[':topic'],['criteria'],[],[],2,3,4,civil society
+s034#0,s034,94,fair-01,internal,1,1,1,[':op2'],['and'],[':ARG1'],['sustain-01'],3,6,10,national authority
+s035#0,s035,168,fairness,leaf,1,0,2,[':op2'],['and'],[],"['bias-01', 'learn-01']",2,5,6,international organisation
+s036#0,s036,47,fairness,leaf,1,0,2,[':op2'],['and'],[],"['transparency', 'discriminate-01']",2,4,5,civil society
+s037#0,s037,38,fairness,leaf,1,0,2,[':op1'],['and'],[],"['predict-01', 'ordinal-entity']",2,4,5,national authority
+s038#0,s038,187,fair-01,internal,1,1,2,[':op3'],['and'],[':ARG1'],"['rely-01', 'secure-02']",3,7,12,civil society
+s039#0,s039,52,fair-01,internal,1,1,1,[':ARG1'],['ensure-01'],[':ARG1'],['team'],3,6,9,national authority
+s040#0,s040,163,fairness,leaf,1,0,2,[':op2'],['and'],[],"['lawfulness', 'transparency']",2,5,6,civil society
+s041#0,s041,69,fair-01,leaf,1,0,10,[':op1'],['and'],[],"['participate-01', 'free-04', 'free-04', 'accountable-02', 'and', 'depend-01', 'autonomy', 'cooperate-01', 'and', '2']",2,13,25,national authority
+s042#0,s042,212,fairness,leaf,1,0,1,[':ARG1'],['include-01'],[],['principle'],2,3,6,civil society
+s043#0,s043,193,fair-01,internal,1,1,1,[':op2'],['or'],[':ARG1'],['safe-01'],3,5,8,national authority
+s044#0,s044,377,fair-01,internal,1,2,2,[':op2'],['and'],"[':ARG1', ':polarity']","['bias-01', 'inclusive']",4,11,18,private sector
+s045#0,s045,160,fairness,leaf,2,0,2,"[':ARG1', ':ARG0']","['consider-02', 'facilitate-01']",[],"['tool', 'practice-01']",3,6,12,international organisation
+s046#0,s046,52,fair-01,internal,1,1,0,[':ARG1'],['ensure-01'],[':ARG1'],[],3,5,9,national authority
+s047#0,s047,351,fairness,leaf,1,0,2,[':op3'],['and'],[],"['transparency', 'accountable-02']",2,5,8,national authority
+s048#0,s048,52,fairness,internal,1,1,0,[':ARG1'],['ensure-01'],[':domain'],[],3,5,8,national authority
+s049#0,s049,351,fair-01,leaf,1,0,1,[':op2'],['and'],[],['formulate-01'],2,3,4,national authority
+s050#0,s050,264,fair-01,leaf,1,0,1,[':topic'],['matter'],[],['also'],2,4,6,national authority
+s051#0,s051,264,fairness,leaf,1,0,1,[':ARG2'],['relate-01'],[],['precaution-02'],2,3,5,national authority
+s052#0,s052,351,fairness,leaf,1,0,3,[':op1'],['and'],[],"['accountable-02', 'sustain-01', 'transparency']",2,6,10,national authority
+s053#0,s053,207,fairness,leaf,1,0,0,[':ARG1'],['automate-01'],[],[],2,3,5,international organisation
+s055#0,s055,429,fairness,leaf,1,0,3,[':op1'],['and'],[],"['accountable-02', 'transparency', 'learn-01']",2,6,8,
+s056#0,s056,16,fairness,leaf,1,0,1,[':ARG2'],['tradeoff-02'],[],['accurate'],2,6,10,
+s057#0,s057,136,fair-01,leaf,1,0,0,[':topic'],['principle'],[],[],2,3,6,international organisation
+s058#0,s058,350,fairness,leaf,1,0,2,[':op2'],['and'],[],"['discriminate-02', 'equal-01']",2,5,8,national authority
+s059#0,s059,165,fairness,leaf,1,0,4,[':op3'],['and'],[],"['safe-01', 'privacy', 'explain-01', 'responsible-03']",2,7,10,international organisation
+s060#0,s060,350,fairness,leaf,1,0,2,[':op2'],['and'],[],"['discriminate-02', 'equal-01']",2,5,10,national authority
+s061#0,s061,52,fair-01,leaf,1,0,2,[':topic'],['concept'],[],"['many', 'world']",2,5,6,national authority
+s062#0,s062,40,fair-01,leaf,1,0,0,[':ARG3'],['bias-01'],[],[],2,3,5,civil society
+s063#0,s063,71,fairness,leaf,1,0,0,[':ARG0'],['concern-01'],[],[],2,3,5,
+s064#0,s064,212,fairness,leaf,1,0,2,[':ARG1'],['link-01'],[],"['discriminate-02', 'already']",2,6,9,civil society
+s065#0,s065,52,fair-01,leaf,1,0,1,[':op1'],['and'],[],['discriminate-01'],2,4,5,national authority
+s066#0,s066,274,fairness,leaf,1,0,0,[':mod'],['metric'],[],[],2,3,6,national authority
+s067#0,s067,173,fairness,internal,1,1,3,[':op3'],['and'],[':mod'],"['agenda', 'competitiveness', 'resilience']",3,6,9,international organisation
+s068#0,s068,52,fairness,leaf,1,0,0,[':topic'],['concept'],[],[],2,4,7,national authority
+s068#1,s068,52,fair-01,root,0,1,0,[],[],[':ARG1'],[],2,3,5,national authority
+s069#0,s069,73,fairness,leaf,1,0,3,[':op2'],['and'],[],"['safe-01', 'privacy', 'security']",2,6,8,international organisation
+s070#0,s070,193,fair-01,internal,1,1,1,[':ARG1'],['ensure-01'],[':ARG1'],['regulate-01'],3,6,9,national authority
+s071#0,s071,17,fairness,leaf,1,0,2,[':mod'],['metric'],[],"['other', 'many']",2,6,9,civil society
+s072#0,s072,38,fairness,leaf,1,0,2,[':ARG1'],['trade-off-02'],[],"['person', 'priority']",2,5,9,national authority
+s073#0,s073,136,fairness,leaf,1,0,3,[':op3'],['and'],[],"['respect-01', 'prevent-01', 'possible-01']",2,6,11,international organisation
+s074#0,s074,17,fairness,leaf,1,0,2,[':op1'],['and'],[],"['bias-01', 'artificial']",2,5,6,civil society
+s075#0,s075,273,fairness,internal,1,1,0,[':ARG1'],['perceive-01'],[':mod'],[],3,4,5,national authority
+s076#0,s076,269,fairness,leaf,1,0,3,[':op4'],['and'],[],"['possible-01', 'transparency', 'causality']",2,6,9,national authority
+s077#0,s077,256,fair-01,internal,2,1,2,"[':ARG1', ':ARG1']","['sit-01', 'address-02']",[':mod'],"['intersect-01', 'approach-02']",4,8,13,
+s078#0,s078,351,fairness,leaf,1,0,2,[':mod'],['type'],[],"['final', '2']",2,5,7,national authority
+s078#1,s078,351,fairness,internal,1,1,0,[':ARG1'],['case-04'],[':mod'],[],3,5,10,national authority
+s079#0,s079,52,fairness,internal,2,1,0,"[':topic', ':topic']","['literature', 'toolset']",[':mod'],[],4,6,7,national authority
+s079#1,s079,52,fairness,leaf,1,0,1,[':op1'],['and'],[],['equal-01'],2,4,5,national authority
+s080#0,s080,8,fairness,leaf,1,0,1,[':op1'],['and'],[],['safe-01'],2,4,7,civil society
+s081#0,s081,52,fairness,leaf,1,0,0,[':ARG1'],['increase-01'],[],[],2,3,6,national authority
+s082#0,s082,212,fairness,leaf,1,0,0,[':mod'],['principle'],[],[],2,3,6,civil society
+s083#0,s083,17,fairness,leaf,1,0,1,[':op1'],['and'],[],['bias-01'],2,4,6,civil society
+s084#0,s084,351,fairness,leaf,1,0,1,[':ARG1'],['realize-01'],[],['and'],2,3,6,national authority
+s085#0,s085,351,fairness,leaf,1,0,1,[':ARG1'],['realize-01'],[],['design-01'],2,3,4,national authority
+s086#0,s086,351,fairness,leaf,1,0,4,[':op1'],['and'],[],"['accountable-02', 'sustain-01', 'transparency', 'principle']",2,7,9,national authority
+s087#0,s087,351,fairness,internal,1,1,2,[':op1'],['and'],[':mod'],"['fairness', 'fairness']",3,6,9,national authority
+s087#1,s087,351,fairness,internal,1,1,2,[':op2'],['and'],[':mod'],"['fairness', 'fairness']",3,6,9,national authority
+s087#2,s087,351,fairness,internal,1,1,2,[':op3'],['and'],[':mod'],"['fairness', 'fairness']",3,6,9,national authority
+s088#0,s088,417,fairness,leaf,1,0,1,[':op1'],['or'],[],['accuracy'],2,4,7,academia
+s089#0,s089,201,fairness,internal,1,2,1,[':ARG1'],['speak-01'],"[':beneficiary', ':manner']",['mean-01'],4,8,15,
+s090#0,s090,6,fairness,leaf,1,0,3,[':op2'],['and'],[],"['justice', 'transparency', 'accountable-02']",2,6,8,civil society
+s091#0,s091,187,fairness,leaf,1,0,2,[':op1'],['or'],[],"['discriminate-01', 'particular']",2,5,10,civil society
+s092#0,s092,187,fairness,leaf,1,0,5,[':op5'],['and'],[],"['accuracy', 'consistent-02', 'bias-01', 'transpare-ncy', 'timely']",2,9,13,civil society
+s093#0,s093,187,fairness,leaf,1,0,3,[':ARG0'],['add-02'],[],"['constraint', 'algorithm', 'nutshell']",2,5,7,civil society
+s094#0,s094,160,fairness,internal,1,2,0,[':op1'],['beyond'],"[':mod', ':topic']",[],4,7,8,international organisation
+s094#1,s094,160,fair-01,root,0,2,0,[],[],"[':ARG1', ':manner']",[],3,4,6,international organisation
+s095#0,s095,110,fairness,leaf,1,0,4,[':op3'],['and'],[],"['liable-01', 'assure-01', 'and', 'own-01']",2,7,15,
+s096#0,s096,192,fairness,internal,1,1,3,[':op2'],['and'],[':poss'],"['precision', 'transparency', 'result-01']",3,7,10,international organisation
+s097#0,s097,212,fairness,leaf,1,0,4,[':op2'],['and'],[],"['transparency', 'minimize-01', 'limit-01', 'provision']",2,7,11,civil society
+s098#0,s098,227,fair-01,leaf,1,0,8,[':op2'],['and'],[],"['and', 'include-01', 'agency', 'align-01', 'accountable-02', 'transparency', 'trust-01', 'misuse-01']",2,11,17,private sector
+s099#0,s099,187,fairness,leaf,1,0,1,[':ARG1'],['trade-off-02'],[],['accurate'],2,4,5,civil society

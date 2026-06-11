@@ -1,0 +1,34 @@
+name: chai
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  # --- data handling ---
+  - pandas
+  - numpy
+  - scipy
+  - openpyxl          # read AI_Ethics_Manifestos.xlsx
+  # --- graphs ---
+  - networkx          # ego-network extraction + WL hashing
+  # --- notebook ---
+  - jupyterlab
+  - ipykernel
+  - pip:
+      # --- AMR ---
+      - penman          # PENMAN parsing / encoding
+      - amrlib          # AMR parsing (models installed separately, see README)
+      # --- AMR metrics ---
+      - smatch          # SMATCH baseline
+      - smatchpp        # SMATCH++ / standardization
+      # --- provenance helper (optional) ---
+      - rapidfuzz       # faster/robuster doc_id -> title matching than stdlib difflib
+
+# NOTE: this file is a curated starting point. The authoritative spec of your working
+# environment should be regenerated from the env itself:
+#   conda env export --from-history > environment.yml
+# (omit --from-history to capture exact build pins, at the cost of cross-platform portability).
+#
+# SEMCAT/RoSE (snucclab/ssharp) is NOT on PyPI yet: it is vendored via git clone in Stage 2.
+# Its own requirements pin networkx ~2.8 while this env uses networkx 3.x — verify
+# compatibility, or isolate the scoring step in a dedicated env if conflicts arise.
