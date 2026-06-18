@@ -1,0 +1,3010 @@
+# ::id s000 ::doc_id 161
+# ::snt The European social partners furthermore refer to principles of fairness (no unfair bias and discrimination), safe deployment of AI through a risk assessment, and transparency and explicability with effective oversight.
+(r / refer-01
+      :ARG0 (o / organization
+            :ARG0-of (p / partner-01
+                  :mod (s / society))
+            :mod (c / continent
+                  :name (n / name
+                        :op1 "Europe")))
+      :ARG1 (p2 / principle
+            :topic (a / and
+                  :op1 (f / fairness
+                        :ARG1-of (m / mean-01
+                              :ARG2 (a2 / and
+                                    :op1 (b / bias-01
+                                          :polarity -)
+                                    :op2 (d / discriminate-01
+                                          :polarity -))))
+                  :op2 (d2 / deploy-01
+                        :ARG1 (ii / intelligent-01
+                              :mod (a3 / artificial))
+                        :ARG0-of (s2 / safe-01)
+                        :manner (a4 / assess-01
+                              :ARG1 (r2 / risk-01)))
+                  :op3 (a5 / and
+                        :op1 (t / transparency)
+                        :op2 (e / explain-01
+                              :manner (o2 / oversee-01
+                                    :ARG0-of (e2 / effective-04))))))
+      :mod (f2 / furthermore))
+
+# ::id s001 ::doc_id 52
+# ::snt This highlights challenges in defining what we mean by fairness, which is a complex and long debated topic.
+(h / highlight-01
+      :ARG0 (t / this)
+      :ARG1 (c / challenge-01
+            :ARG2 (d / define-01
+                  :ARG1 (t2 / thing
+                        :ARG2-of (m / mean-01
+                              :ARG0 (w / we)
+                              :ARG1 (f / fairness))
+                        :mod (t3 / topic
+                              :ARG1-of (d2 / debate-01
+                                    :ARG1-of (l / long-03))
+                              :mod (c2 / complex))))))
+
+# ::id s002 ::doc_id 69
+# ::snt lawful, ethical and robust) AI: 1) Human agency an d oversight, 2)Technical robustness and safety, 3)Privacy and data governance , 4)Transparency, 5) Diversity, non -discrimination and fairness, 6) Social and environmental well -being, 7) Accountability 21 Whitepaper on artificial intelligence, COM(2020) 65 final 22 II.
+(m / multi-sentence
+      :snt1 (a / and
+            :op1 (l / lawful)
+            :op2 (e / ethics)
+            :op3 (r / robust)
+            :domain (a2 / artificial
+                  :mod (ii / intelligent)))
+      :snt2 (a3 / and
+            :li 1
+            :op1 (o / oversight
+                  :mod (h / human))
+            :op2 (a4 / and
+                  :li 2
+                  :op1 (r2 / robust
+                        :mod (t / technical))
+                  :op2 (s / safe-01))
+            :op3 (a5 / and
+                  :li 3
+                  :op1 (p / privacy)
+                  :op2 (g / govern-01
+                        :ARG1 (d / data)))
+            :op4 (t2 / transparency)
+            :op5 (a6 / and
+                  :li 5
+                  :op1 (d2 / diversity)
+                  :op2 (d3 / discriminate-01
+                        :polarity -)
+                  :op3 (f / fair-01))
+            :op6 (a7 / and
+                  :li 6
+                  :op1 (w / well-09
+                        :ARG1 (s2 / society))
+                  :op2 (w2 / well-09
+                        :ARG1 (e2 / environment)))
+            :op7 (p2 / publication
+                  :mod 21
+                  :ARG1-of (w3 / whitepaper-00)
+                  :topic (ii2 / intelligent
+                        :mod (a8 / artificial))
+                  :ARG1-of (ii3 / include-91
+                        :ARG2 (p3 / publication
+                              :mod 65
+                              :ARG1-of (c / cite-01
+                                    :ARG2 (p4 / publication
+                                          :mod 22
+                                          :ord (o2 / ordinal-entity
+                                                :value "-1")))
+                              :ARG1-of ii3
+                              :ARG2 (p5 / publication
+                                    :mod 22
+                                    :ord (o3 / ordinal-entity
+                                          :value "-2")))))))
+
+# ::id s003 ::doc_id 82
+# ::snt For instance, how could AI systems be designed so they respect and promote human rights, fairness and accountability?
+(e / exemplify-01
+      :ARG0 (p / possible-01
+            :ARG1 (d / design-01
+                  :ARG1 (s / system
+                        :mod (ii / intelligent-01
+                              :mod (a / artificial)))
+                  :ARG3 (a2 / and
+                        :op1 (r / respect-01
+                              :ARG0 s
+                              :ARG1 (a3 / and
+                                    :op1 (r2 / right-05
+                                          :ARG1 (h / human))
+                                    :op2 (f / fairness)
+                                    :op3 (a4 / accountable-02)))
+                        :op2 (p2 / promote-02
+                              :ARG0 s
+                              :ARG1 a3)))
+            :manner (a5 / amr-unknown)))
+
+# ::id s004 ::doc_id 135
+# ::snt Assessment List for Trustworthy AI (ALTAI) 17 • Is your definition of fairness commonly used and implemented in any phase of the process of setting up the AI system?
+(m / multi-sentence
+      :snt1 (p / publication
+            :mod 17
+            :name (n / name
+                  :op1 "Assessment"
+                  :op2 "List"
+                  :op3 "for"
+                  :op4 "Trustworthy"
+                  :op5 "AI"))
+      :snt2 (a / and
+            :op1 (u / use-01
+                  :ARG1 (t / thing
+                        :ARG2-of (d / define-01
+                              :ARG0 (y / you)
+                              :ARG1 (f / fair-01)))
+                  :mod (c / common))
+            :op2 (ii / implement-01
+                  :ARG1 t)
+            :time (p2 / phase
+                  :mod (a2 / any)
+                  :subevent-of (p3 / process-02
+                        :ARG1 (s / set-up-03
+                              :ARG1 (s2 / system
+                                    :mod (ii2 / intelligent-01
+                                          :mod (a3 / artificial))))))
+            :polarity (a4 / amr-unknown)))
+
+# ::id s005 ::doc_id 272
+# ::snt Or, under certain conditions such as data sparsity, privacy-enhancing techniques can result in a loss in accuracy, affecting decisions Page 12 NIST AI 100-1 AI RMF 1.0 about fairness and other values in certain domains.
+(o / or
+      :op2 (p / possible-01
+            :ARG1 (r / result-01
+                  :ARG1 (t / technique
+                        :ARG0-of (e / enhance-01
+                              :ARG1 (p2 / privacy)))
+                  :ARG2 (l / lose-02
+                        :ARG1 (a / accurate))
+                  :ARG0-of (a2 / affect-01
+                        :ARG1 (t2 / thing
+                              :ARG1-of (d / decide-01))))
+            :condition (c / condition
+                  :example (s / sparsity
+                        :mod (d2 / data))
+                  :mod (c2 / certain))
+            :ARG1-of (d3 / describe-01
+                  :ARG0 (p3 / publication-91
+                        :ARG0 (a3 / and
+                              :op1 (p4 / publication
+                                    :name (n / name
+                                          :op1 "NIST"))
+                              :op2 (p5 / publication
+                                    :name (n2 / name
+                                          :op1 "AI"
+                                          :op2 "100-1"
+                                          :op3 "1"
+                                          :op4 "0"
+                                          :op5 "AI"))
+                              :op3 (p6 / publication
+                                    :name (n3 / name
+                                          :op1 "RAF"
+                                          :op2 1.0)
+                                    :topic (a4 / and
+                                          :op1 (f / fairness)
+                                          :op2 (v / value
+                                                :mod (o2 / other))
+                                          :location (d4 / domain
+                                                :mod (c3 / certain))))
+                              :ARG7 (p7 / page
+                                    :mod 12))))))
+
+# ::id s006 ::doc_id 187
+# ::snt Considering that several definitions of fairness exist, it is useful to understand how they relate to each other.
+(u / useful-05
+      :ARG1 (u2 / understand-01
+            :ARG1 (t / thing
+                  :manner-of (r / relate-01
+                        :ARG1 (t2 / they)
+                        :ARG2 (t3 / thing
+                              :ARG2-of (d / define-01
+                                    :ARG1 (f / fair-01))
+                              :quant (s / several)))))
+      :condition (c / consider-02
+            :ARG1 (e / exist-01
+                  :ARG1 t3)))
+
+# ::id s007 ::doc_id 52
+# ::snt Organisations that are introducing algorithms into decisions that were previously purely made by humans should be looking to achieve at least equivalent standards of fairness, accountability and transparency, and in many cases should look to do better.
+(r / recommend-01
+      :ARG1 (a / and
+            :op1 (l / look-04
+                  :ARG0 (o / organization
+                        :ARG0-of (ii / introduce-02
+                              :ARG1 (a2 / algorithm)
+                              :ARG2 (d / decide-01
+                                    :ARG1-of (m / make-01
+                                          :ARG0 (h / human)
+                                          :ARG1-of (p / pure-02)
+                                          :time (p2 / previous)))))
+                  :ARG1 (a3 / achieve-01
+                        :ARG0 o
+                        :ARG1 (s / standard-02
+                              :ARG1 (a4 / and
+                                    :op1 (f / fairness)
+                                    :op2 (a5 / accountable-02)
+                                    :op3 (t / transparency))
+                              :ARG1-of (e / equivalent-00
+                                    :mod (a6 / at-least)))))
+            :op2 (l2 / look-04
+                  :ARG0 o
+                  :ARG1 (d2 / do-02
+                        :ARG0 o
+                        :ARG1 (g / good-02
+                              :ARG2-of (h2 / have-degree-91
+                                    :ARG1 d2
+                                    :ARG3 (m2 / more))))
+                  :time (c / case-04
+                        :quant (m3 / many)))))
+
+# ::id s008 ::doc_id 87
+# ::snt ‘Algorithmic Transparency and Platform Loyalty or Fairness in the French Digital Republic Bill’.
+(a / and
+      :op1 (t / transparency
+            :mod (a2 / algorithm))
+      :op2 (l / loyal-01
+            :ARG1 (p / platform))
+      :op3 (f / fairness)
+      :location (l2 / law
+            :name (n / name
+                  :op1 "French"
+                  :op2 "Digital"
+                  :op3 "Republic"
+                  :op4 "Bill")))
+
+# ::id s009 ::doc_id 83
+# ::snt (2018), “Gender shades: intersectional accuracy dispar-ities in commercial gender classification” , Conference on Fairness, Accountability, a nd Transparency, pp.
+(p / publication-91
+      :ARG1 (p2 / publication
+            :name (n / name
+                  :op1 "Gender"
+                  :op2 "Shades"
+                  :op3 ":"
+                  :op4 "Disparity")
+            :mod (a / accurate
+                  :mod (ii / intersectional))
+            :topic (c / classify-01
+                  :ARG1 (c2 / commerce)
+                  :ARG2 (g / gender)))
+      :ARG4 (c3 / conference
+            :name n
+            :op1 "Conference"
+            :op2 "on"
+            :op3 "Fairness"
+            :op4 "Accountability"
+            :op5 "and"
+            :op6 "Transparency")
+      :ARG7 (v / value-interval
+            :op1 "a"
+            :op2 "n"
+            :op3 "and"
+            :op4 "toward"
+            :op5 "the"
+            :op6 "Transparency")
+      :time (d / date-entity
+            :year 2018))
+
+# ::id s010 ::doc_id 138
+# ::snt This includes fostering the understanding of AI systems more generally (including a basic understanding of machine learning and reasoning), but also raising awareness of data protection rights , an understanding of how (personal) data can be used, the implications of digital tracking , and the importance of issues such as fairness, explainability, transparency, robustness of AI systems, and knowledge of these topics .
+(ii / include-01
+      :ARG1 (c / contrast-01
+            :ARG1 (f / foster-01
+                  :ARG1 (u / understand-01
+                        :ARG1 (s / system
+                              :mod (ii2 / intelligent-01
+                                    :mod (a / artificial)))
+                        :ARG1-of (g / general-02
+                              :mod (m / more))
+                        :ARG2-of (ii3 / include-01
+                              :ARG1 (u2 / understand-01
+                                    :ARG1 (a2 / and
+                                          :op1 (l / learn-01
+                                                :mod (m2 / machine))
+                                          :op2 (r / reason-01
+                                                :mod m2))
+                                    :mod (b / basic)))))
+            :ARG2 (r2 / raise-01
+                  :ARG1 (a3 / and
+                        :op1 (a4 / awareness
+                              :topic (r3 / right-05
+                                    :ARG2 (p / protect-01
+                                          :ARG1 (d / data))))
+                        :op2 (u3 / understand-01
+                              :ARG1 (t / thing
+                                    :manner-of (p2 / possible-01
+                                          :ARG1 (u4 / use-01
+                                                :ARG1 (d2 / data
+                                                      :ARG1-of (p3 / personal-02))))))
+                        :op3 (ii4 / implicate-01
+                              :ARG1 (t2 / track-01
+                                    :mod (d3 / digital)))
+                        :op4 (ii5 / important-01
+                              :ARG1 (ii6 / issue-02
+                                    :example (a5 / and
+                                          :op1 (f2 / fairness)
+                                          :op2 (e / explain-01
+                                                :ARG1-of (p4 / possible-01))
+                                          :op3 (t3 / transparency)
+                                          :op4 (r4 / robustness
+                                                :poss s)
+                                          :op5 (k / know-01
+                                                :ARG1 (t4 / topic
+                                                      :mod (t5 / this)))))))
+                  :mod (a6 / also)))
+      :ARG2 t5)
+
+# ::id s011 ::doc_id 201
+# ::snt RECOMMENDATION 4 Set up a national platform for auditing algorithms Developing algorithmic auditing to check their compliance with the law and fairness is often billed as a solution to ensure their fairness, accountability and, more broadly, their compliance with the law.Through design, the whole relationship between humans and machines can be adjusted, to empower us and increase our ability to make informed decisions HOW CAN HUMANS KEEP THE UPPER HAND?
+(m / multi-sentence
+      :snt1 (r / recommend-01
+            :li 4
+            :ARG1 (s / set-up-03
+                  :ARG1 (p / platform
+                        :mod (n / nation)
+                        :purpose (a / audit-01
+                              :ARG1 (a2 / algorithm)))))
+      :snt2 (b / bill-01
+            :ARG1 (d / develop-02
+                  :ARG1 (a3 / audit-01
+                        :mod a2)
+                  :purpose (c / check-01
+                        :ARG1 (a4 / and
+                              :op1 (f / fair-01
+                                    :ARG1 (t / they))
+                              :op2 (a5 / accountable-02
+                                    :ARG0 t)))))
+      :ARG2 (s2 / solution
+            :purpose (e / ensure-01
+                  :ARG0 a3
+                  :ARG1 (a6 / and
+                        :op1 (f2 / fair-01
+                              :ARG1 t)
+                        :op2 a5
+                        :ARG0 t)
+                  :op3 (c2 / comply-01
+                        :ARG0 t
+                        :ARG1 (l / law)
+                        :ARG1-of (h / have-degree-91
+                              :ARG2 (b2 / broad-02
+                                    :ARG1 c2)
+                              :ARG3 (m2 / more)))))
+      :frequency (o / often)
+      :snt3 (p2 / possible-01
+            :ARG1 (a7 / adjust-01
+                  :ARG1 (r2 / relation-03
+                        :ARG0 (h2 / human)
+                        :ARG2 (m3 / machine)
+                        :mod (w / whole))
+                  :manner (d2 / design-01)
+                  :purpose (a8 / and
+                        :op1 (e2 / empower-01
+                              :ARG0 a7
+                              :ARG1 (w2 / we))
+                        :op2 (ii / increase-01
+                              :ARG0 a7
+                              :ARG1 (p3 / possible-01
+                                    :ARG1 (d3 / decide-01
+                                          :ARG0 w2
+                                          :ARG1-of (ii2 / inform-01
+                                                :ARG0 w2))))))
+            :manner (a9 / amr-unknown)))
+
+# ::id s012 ::doc_id 212
+# ::snt Case 28 (related to Case 3): Fairness of automated ranking depends on the factors which are weighed in by the algorithm In December 2020, the Labor division of the Italian Bologna Court found that Deliveroo’s reputational ranking algorithm “Frank,” which determined the order in which Deliveroo’s riders would be called for a given service, was discriminatory and unlawful, after three riders sued the company.
+(m / multi-sentence
+      :snt1 (c / case
+            :mod 28
+            :ARG1-of (r / relate-01
+                  :ARG2 (c2 / case
+                        :mod 3)))
+      :snt2 (d / depend-01
+            :ARG0 (f / fair-01
+                  :ARG1 (r2 / rank-01
+                        :ARG1-of (a / automate-01)))
+            :ARG1 (f2 / factor
+                  :ARG1-of (w / weigh-in-03
+                        :ARG0 (a2 / algorithm))))
+      :snt3 (f3 / find-01
+            :ARG0 (d2 / division
+                  :mod (l / labor)
+                  :part-of (g / government-organization
+                        :name (n / name
+                              :op1 "Bologna"
+                              :op2 "Court")
+                        :mod (c3 / country
+                              :name (n2 / name
+                                    :op1 "Italy"))))
+            :ARG1 (a3 / and
+                  :op1 (d3 / discriminate-02
+                        :ARG0 (a4 / algorithm
+                              :name (n3 / name
+                                    :op1 "Frank")
+                              :poss (c4 / company
+                                    :name (n4 / name
+                                          :op1 "Deliveroo"))
+                              :ARG0-of (d4 / determine-01
+                                    :ARG1 (o / order-02
+                                          :ARG1 (p / person
+                                                :quant 3
+                                                :ARG0-of (r3 / ride-01)
+                                                :poss c4)
+                                          :purpose (s / serve-01
+                                                :mod (g2 / given))))
+                              :instrument-of (r4 / rank-01
+                                    :ARG1 c4
+                                    :ARG3 (r5 / reputation))))
+                  :op2 (l2 / lawful
+                        :polarity -
+                        :domain a4))
+            :time (d5 / date-entity
+                  :month 12
+                  :year 2020)
+            :time (a5 / after
+                  :op1 (s2 / sue-02
+                        :ARG0 p
+                        :ARG1 c4))))
+
+# ::id s013 ::doc_id 17
+# ::snt Several scholars have identiﬁed limitations with these approaches to observational fairness.
+(l / limit-01
+      :ARG0 (a / approach-02
+            :ARG1 (f / fairness
+                  :mod (o / observe-01))
+            :mod (t / this))
+      :ARG1 (s / scholar
+            :quant (s2 / several))
+      :ARG1-of (ii / identify-01))
+
+# ::id s014 ::doc_id 350
+# ::snt This public input should include (1) determining the reasonableness, fairness, equity, and justifiability of the translation of the project's objective into the statistical and mathematical frame and (2) deter mining the alignment of that translation with the potential impacts of the system on human rights, fundamental freedoms, democracy, and the rule of law.
+(r / recommend-01
+      :ARG1 (ii / include-01
+            :ARG1 (a / and
+                  :op1 (d / determine-01
+                        :li 1
+                        :ARG1 (a2 / and
+                              :op1 (r2 / reason-01)
+                              :op2 (f / fairness)
+                              :op3 (e / equity)
+                              :op4 (p / possible-01
+                                    :ARG1 (j / justify-01
+                                          :ARG1 (t / translate-01
+                                                :ARG1 (o / objective
+                                                      :mod (p2 / project))))))
+                        :ARG2 (f2 / frame
+                              :mod (s / statistics)
+                              :mod (m / mathematics)))
+                  :op2 (d2 / deter-01
+                        :li 2
+                        :ARG1 (m2 / mine-01
+                              :ARG1 (a3 / align-01
+                                    :ARG1 t
+                                    :ARG2 (ii2 / impact-01
+                                          :ARG0 (s2 / system)
+                                          :ARG1 (a4 / and
+                                                :op1 (r3 / right-05
+                                                      :ARG1 (h / human))
+                                                :op2 (f3 / free-04
+                                                      :mod (f4 / fundamental))
+                                                :op3 (d3 / democracy)
+                                                :op4 (r4 / rule-03
+                                                      :ARG1 (l / law)))
+                                          :mod (p3 / potential))))))
+            :ARG2 (ii3 / input
+                  :ARG1-of (p4 / public-02)
+                  :mod (t2 / this))))
+
+# ::id s015 ::doc_id 183
+# ::snt The Union and its Member States shall encourage research projects intended to provide solutions, based on artificial intelligence, robotics and related technologies, that seek to promote social inclusion, democracy, plurality, solidarity, fairness, equality and cooperation.
+(r / recommend-01
+      :ARG1 (e / encourage-01
+            :ARG0 (a / and
+                  :op1 (o / organization
+                        :name (n / name
+                              :op1 "Union"))
+                  :op2 (s / state
+                        :ARG0-of (h / have-org-role-91
+                              :ARG1 o
+                              :ARG2 (m / member))))
+            :ARG1 (p / project
+                  :mod (r2 / research)
+                  :ARG0-of (p2 / provide-01
+                        :ARG1 (s2 / solution
+                              :ARG1-of (b / base-02
+                                    :ARG2 (a2 / and
+                                          :op1 (ii / intelligent-01
+                                                :mod (a3 / artificial))
+                                          :op2 (r3 / robot)
+                                          :op3 (t / technology
+                                                :ARG1-of (r4 / relate-01))))
+                              :ARG0-of (s3 / seek-01
+                                    :ARG1 (p3 / promote-02
+                                          :ARG0 s2
+                                          :ARG1 (a4 / and
+                                                :op1 (ii2 / include-01
+                                                      :ARG2 (s4 / society))
+                                                :op2 (d / democracy)
+                                                :op3 (p4 / plurality)
+                                                :op4 (s5 / solidarity)
+                                                :op5 (f / fairness)
+                                                :op6 (e2 / equal-01)
+                                                :op7 (c / cooperate-01))))
+                              :ARG1-of (ii3 / intend-01))))))
+
+# ::id s016 ::doc_id 350
+# ::snt In 2018 IEEE/ACM International Work shop on Software Fairness (FairWare) (pp.
+(e / event
+      :name (n / name
+            :op1 "IEEE/ACM"
+            :op2 "International"
+            :op3 "Work"
+            :op4 "Shop"
+            :op5 "on"
+            :op6 "Software"
+            :op7 "Fairness"
+            :op8 "(FairWare)")
+      :time (d / date-entity
+            :year 2018)
+      :medium (p / publication-91
+            :ARG7 (v / value-interval
+                  :op1 1
+                  :op2 2)))
+
+# ::id s017 ::doc_id 176
+# ::snt Acknowledges that machine learning algorithms are trained to learn by themselves, benefiting automation and decision-making; calls for AI ethics guidelines to address issues related to algorithmic transparency, explainability, accountability and fairness; 161.
+(a / and
+      :li 161
+      :op1 (a2 / acknowledge-01
+            :ARG1 (t / train-01
+                  :ARG1 (l / learn-01
+                        :ARG0 (a3 / algorithm
+                              :instrument-of (l2 / learn-01
+                                    :manner (m / machine)))
+                        :mod (b / by-oneself)
+                        :ARG0-of (b2 / benefit-01
+                              :ARG1 (a4 / and
+                                    :op1 (a5 / automate-01)
+                                    :op2 (m2 / make-01
+                                          :ARG1 (d / decide-01)))))))
+      :op2 (c / call-03
+            :ARG1 (a6 / address-02
+                  :ARG0 (g / guideline
+                        :mod (e / ethics)
+                        :mod (ii / intelligent-01
+                              :mod (a7 / artificial)))
+                  :ARG1 (ii2 / issue-02
+                        :ARG1-of (r / relate-01
+                              :ARG2 (a8 / and
+                                    :op1 (t2 / transparency
+                                          :mod a3))
+                              :op2 (e2 / explain-01
+                                    :ARG1 t2)
+                              :op3 (a9 / accountable-02
+                                    :ARG1 t2)
+                              :op4 (f / fairness))))))
+
+# ::id s018 ::doc_id 160
+# ::snt In a sense, defining the governing sense of ‘fairness’ is at the heart of many political disputes and is required when we operationalise fairness by programming a computer.
+(a / and
+      :op1 (d / define-01
+            :ARG1 (s / sense-01
+                  :ARG1 (f / fairness)
+                  :ARG0-of (g / govern-01))
+            :location (h / heart
+                  :part-of (d2 / dispute-01
+                        :mod (p / politics)
+                        :quant (m / many))))
+      :op2 (r / require-01
+            :ARG1 d
+            :time (o / operate-01
+                  :ARG0 (w / we)
+                  :ARG1 (f2 / fairness)
+                  :manner (p2 / program-01
+                        :ARG0 w
+                        :ARG1 (c / computer))))
+      :mod (s2 / sense))
+
+# ::id s019 ::doc_id 135
+# ::snt 16 REQUIREMENT #5 Diversity, No n-discrimination and Fairness In order to achieve Trustworthy AI, we must enable inclusion and diversity throughout the entire AI system’s life cycle.
+(m / multi-sentence
+      :snt1 (r / require-01
+            :li 16
+            :ARG1 (a / and
+                  :op1 (d / diversity)
+                  :op2 (d2 / discriminate-02
+                        :polarity -
+                        :ARG0 (p / person
+                              :mod (e / ethnic-group
+                                    :name (n / name
+                                          :op1 "n-group"))))
+                  :op3 (f / fairness)))
+      :snt2 (o / obligate-01
+            :ARG1 (w / we)
+            :ARG2 (e2 / enable-01
+                  :ARG0 w
+                  :ARG1 a
+                  :op1 (ii / include-01)
+                  :op2 (d3 / diversity))
+            :duration (c / cycle
+                  :mod (l / life)
+                  :mod (e3 / entire)
+                  :poss (s / system
+                        :mod (ii2 / intelligent-01
+                              :mod (a2 / artificial)))))
+      :purpose (a3 / achieve-01
+            :ARG0 w
+            :ARG1 ii2
+            :ARG1-of (d4 / deserve-01
+                  :ARG0 (t / trust-01))))
+
+# ::id s020 ::doc_id 223
+# ::snt The NRC would facilitate audits of large-scale models, datasets, and AI systems for privacy violations and bias; but it would not be tantamount to a regulatory requirement for fairness assessments and accountability.
+(c / contrast-01
+      :ARG1 (f / facilitate-01
+            :ARG0 (o / organization
+                  :name (n / name
+                        :op1 "NRC"))
+            :ARG1 (a / audit-01
+                  :ARG1 (a2 / and
+                        :op1 (m / model)
+                        :op2 (d / dataset)
+                        :op3 (s / system
+                              :mod (ii / intelligent-01
+                                    :mod (a3 / artificial)))
+                        :mod (l / large-scale))
+                  :ARG2 (a4 / and
+                        :op1 (v / violate-01
+                              :ARG1 (p / privacy))
+                        :op2 (b / bias-01))))
+      :ARG2 (t / tantamount
+            :polarity -
+            :domain o
+            :purpose (r / require-01
+                  :ARG0 o
+                  :ARG1 (a5 / and
+                        :op1 (a6 / assess-01
+                              :ARG1 (f2 / fairness))
+                        :op2 (a7 / accountable-02))
+                  :ARG0-of (r2 / regulate-01))))
+
+# ::id s021 ::doc_id 218
+# ::snt ProFair’s AI Principles consultations with product teams this year have explored potential fairness issues in models and products that utilize text and image generation, person and object detection, and classification functions for teams across Google.
+(e / explore-01
+      :ARG0 (c / consult-01
+            :ARG0 (o / organization
+                  :name (n / name
+                        :op1 "ProFair"))
+            :ARG1 (t / team
+                  :mod (p / product))
+            :ARG2 (p2 / principle
+                  :mod (ii / intelligent-01
+                        :mod (a / artificial)))
+            :time (y / year
+                  :mod (t2 / this)))
+      :ARG1 (ii2 / issue-02
+            :ARG0 (f / fair-01)
+            :ARG1 (a2 / and
+                  :op1 (m / model)
+                  :op2 (p3 / product)
+                  :ARG0-of (u / utilize-01
+                        :ARG1 (a3 / and
+                              :op1 (g / generate-01
+                                    :ARG1 (a4 / and
+                                          :op1 (t3 / text)
+                                          :op2 (ii3 / image)))
+                              :op2 (d / detect-01
+                                    :ARG1 (a5 / and
+                                          :op1 (p4 / person)
+                                          :op2 (o2 / object)))
+                              :op3 (f2 / function-01
+                                    :ARG1 (c2 / classify-01)))
+                        :beneficiary (t4 / team
+                              :location (a6 / across
+                                    :op1 (c3 / company
+                                          :name (n2 / name
+                                                :op1 "Google"))))))
+            :mod (p5 / potential)))
+
+# ::id s022 ::doc_id 65
+# ::snt AI will improve the quality of services and the efficiency of processes while guarantying fairness, wellbeing, and quality of life.AI technologies should be easily available to promote the efficiency and quality of all activities, including SMEs, public services and every citizen.
+(m / multi-sentence
+      :snt1 (ii / improve-01
+            :ARG0 (ii2 / intelligent-01
+                  :mod (a / artificial))
+            :ARG1 (a2 / and
+                  :op1 (q / quality
+                        :poss (s / serve-01))
+                  :op2 (e / efficient-01
+                        :ARG1 (p / process-01)))
+            :time (g / guarantee-01
+                  :ARG0 ii2
+                  :ARG1 (a3 / and
+                        :op1 (f / fairness)
+                        :op2 (w / well-09)
+                        :op3 (q2 / quality
+                              :poss (l / live-01)))))
+      :snt2 (r / recommend-01
+            :ARG1 (a4 / available-02
+                  :ARG2 (t / technology
+                        :mod (ii3 / intelligent-01))
+                  :ARG1-of (e2 / easy-05)
+                  :purpose (p2 / promote-02
+                        :ARG0 t
+                        :ARG1 (a5 / and
+                              :op1 (e3 / efficient-01
+                                    :ARG1 (a6 / activity-06
+                                          :mod (a7 / all)
+                                          :ARG2-of (ii4 / include-01
+                                                :ARG1 (a8 / and
+                                                      :op1 (s2 / small-molecule
+                                                            :name (n / name
+                                                                  :op1 "SME"))
+                                                      :op2 (s3 / serve-01
+                                                            :ARG1-of (p3 / public-02))
+                                                      :op3 (c / citizen
+                                                            :mod (e4 / every))))))
+                              :op2 (q3 / quality
+                                    :poss a6))))))
+
+# ::id s023 ::doc_id 418
+# ::snt For institutional affiliation outside of academia, regex phrase matching was used on prominent AI technology company contributors.Source Data IntegrationMethodology Task and sub-task classification Ethics and Fairness Topic Evaluation Institution/country Affiliation [Research_Development]_[Appendix_Start] [Access_Data]AI Index-arXiv full paper search engine 190Artificial Intelligence Index Report 2019 Technical Appendix 1 - Research & Development Combined dataset: OutAiPaperCountByYearDocType Combined dataset: OutAiPaperCitationCountryPairByYearDocType The citation and reference count represents the number of respective metrics for AI papers collected from ALL papers.
+(m / multi-sentence
+      :snt1 (u / use-01
+            :ARG1 (p / phrase
+                  :mod (r / regex))
+            :ARG2 (a / affiliate-01
+                  :ARG1 (c / company
+                        :mod (t / technology
+                              :mod (a2 / artificial))
+                        :mod (p2 / prominent)
+                        :ARG0-of (c2 / contribute-01))
+                  :location (o / outside
+                        :op1 (a3 / academia))))
+      :snt2 (r2 / represent-01
+            :ARG0 (a4 / and
+                  :op1 (c3 / count-01
+                        :ARG1 (t2 / thing
+                              :ARG1-of (c4 / cite-01)))
+                  :op2 (c5 / count-01
+                        :ARG1 (t3 / thing
+                              :ARG1-of (r3 / reference-04))))
+            :ARG1 (n / number
+                  :quant-of (m2 / metric
+                        :beneficiary (p3 / paper
+                              :mod (ii / intelligent-01
+                                    :mod (a5 / artificial))
+                              :ARG1-of (c6 / collect-01
+                                    :ARG2 (p4 / paper
+                                          :mod (a6 / all)))))))
+      :snt3 (a7 / and
+            :op1 (t4 / task
+                  :name (n2 / name
+                        :op1 "Data"
+                        :op2 "Integration"
+                        :op3 "Methodology"
+                        :op4 "Task"))
+            :op2 (c7 / classify-01
+                  :ARG1 (t5 / topic
+                        :mod (e / ethics)
+                        :mod (f / fairness)))
+            :op3 (a8 / affiliate-01
+                  :ARG2 (c8 / country))
+            :domain (d / dataset
+                  :ARG1-of (c9 / combine-01)
+                  :topic (a9 / and
+                        :op1 (r4 / research-01)
+                        :op2 (d2 / develop-02))
+                  :mod (o2 / organization
+                        :name (n3 / name
+                              :op1 "OutAiPaperCountByYearDocType")))
+            :snt4 (p5 / publication
+                  :mod 190
+                  :ARG1 p5
+                  :name (n4 / name
+                        :op1 "Artificial"
+                        :op2 "Intelligence"
+                        :op3 "Index"
+                        :op4 "Report"))
+            :mod (t6 / technical)
+            :time (d3 / date-entity
+                  :year 2019))
+      :snt5 (p6 / publication
+            :name (n5 / name
+                  :op1 "Appendix_Start")
+            :ARG1-of (a10 / access-01)))
+
+# ::id s024 ::doc_id 187
+# ::snt hypothesis) that minimi se the classification errors on the training data , while satisfying the fairness constraint.
+(t / thing
+      :ARG1-of (h / hypothesize-01)
+      :domain (m / minimize-01
+            :ARG1 (e / error
+                  :mod (c / classify-01)
+                  :location (d / data
+                        :purpose (t2 / train-01)))
+            :time (s / satisfy-01
+                  :ARG1 (c2 / constraint
+                        :mod (f / fairness)))))
+
+# ::id s025 ::doc_id 82
+# ::snt Can training data be checked for discrimination risks?266 As noted, an emerging and vibrant field of computer science focuses on such questions.267 More generally: if countries fund AI research, part of that funding should be used for research into the risks for fairness and human rights , and into mitigating th ose risks.
+(m / multi-sentence
+      :li 267
+      :snt1 (p / possible-01
+            :polarity (a / amr-unknown)
+            :ARG1 (c / check-01
+                  :ARG1 (d / data
+                        :purpose (t / train-01))
+                  :ARG2 (r / risk-01
+                        :ARG2 (d2 / discriminate-02))))
+      :snt2 (f / focus-01
+            :ARG1 (f2 / field
+                  :ARG0-of (e / emerge-02)
+                  :mod (s / science
+                        :mod (c2 / computer))
+                  :mod (v / vibrant))
+            :ARG2 (q / question-01
+                  :mod (s2 / such))
+            :ARG1-of (n / note-01))
+      :snt3 (r2 / recommend-01
+            :ARG1 (u / use-01
+                  :ARG1 (f3 / fund-01
+                        :ARG0 (c3 / country)
+                        :ARG1 (r3 / research-01
+                              :ARG1 (ii / intelligent-01
+                                    :mod (a2 / artificial)))
+                        :part-of (f4 / fund-01))
+                  :ARG2 (r4 / research-01
+                        :ARG1 (a3 / and
+                              :op1 (r5 / risk-01
+                                    :op1 (f5 / fairness)
+                                    :op2 (r6 / right-05
+                                          :ARG1 (h / human)))
+                              :ARG2-of r5)
+                        :op2 (m2 / mitigate-01
+                              :ARG1 r5))))
+      :ARG1-of (g / general-02
+            :mod (m3 / more))
+      :condition f4)
+
+# ::id s026 ::doc_id 47
+# ::snt on fairness, accountability and transparency, that apply to all AI systems .
+(a / apply-02
+      :ARG1 (a2 / and
+            :op1 (f / fairness)
+            :op2 (a3 / accountable-02)
+            :op3 (t / transparency))
+      :ARG2 (s / system
+            :mod (a4 / artificial)
+            :mod (a5 / all)))
+
+# ::id s027 ::doc_id 148
+# ::snt 41 European Commission, Coordinated Plan on Artificial intelligence 2021 Review , (COM(2021) 205 final) 15 4.4 Regulation The u se of certain AI technologies raise s ethical and legal issues, necessitating the development of a legal framework for human -centric and trustworthy AI .42 These issues relate to human rights, privacy, fairness, algorithmic bias, transparency and explainability, safety and accountability, among others.
+(m / multi-sentence
+      :snt1 (p / publication-91
+            :li 41
+            :ARG0 (o / organization
+                  :name (n / name
+                        :op1 "European"
+                        :op2 "Commission"))
+            :ARG1 (p2 / publication
+                  :name (n2 / name
+                        :op1 "Plan"
+                        :op2 "on"
+                        :op3 "Artificial"
+                        :op4 "Intelligence"
+                        :op5 2021
+                        :op6 "Review")
+                  :ARG1-of (c / coordinate-01
+                        :ARG0 (o2 / organization
+                              :name (n3 / name
+                                    :op1 "European"
+                                    :op2 "Union"))))
+            :ARG4 (p3 / publication
+                  :name (n4 / name
+                        :op1 205
+                        :op2 "Final"
+                        :op3 "Regulations"))
+            :ARG7 (a / and
+                  :op1 15
+                  :op2 4.4
+                  :op3 4.42))
+      :snt2 (r / raise-01
+            :ARG0 (t / technology
+                  :mod (a2 / artificial)
+                  :mod (c2 / certain))
+            :ARG1 (a3 / and
+                  :op1 (ii / issue-02
+                        :ARG0 t
+                        :mod (e / ethics))
+                  :op2 (ii2 / issue-02
+                        :ARG0 t
+                        :ARG1-of (l / legal-02))
+                  :ARG0-of (n5 / necessitate-01
+                        :ARG1 (d / develop-02
+                              :ARG1 (f / framework
+                                    :ARG1-of (l2 / legal-02)
+                                    :purpose (a4 / and
+                                          :op1 (c3 / center-01
+                                                :ARG1 t
+                                                :ARG2 (h / human))
+                                          :op2 (t2 / trustworthy
+                                                :domain t))))))
+            :ARG1-of (r2 / relate-01
+                  :ARG2 (a5 / and
+                        :op1 (r3 / right-05
+                              :ARG1 h)
+                        :op2 (p4 / privacy)
+                        :op3 (f2 / fairness)
+                        :op4 (b / bias-01
+                              :ARG0 (a6 / algorithm))
+                        :op5 (a7 / and
+                              :op1 (t3 / transparency)
+                              :op2 (e2 / explain-01))
+                        :op6 (s / safe-01)
+                        :op7 (a8 / accountable-02))
+                  :ARG1-of (ii3 / include-91
+                        :ARG2 (o3 / other)))))
+
+# ::id s028 ::doc_id 193
+# ::snt At a technical level, the challenges of fairness and safety are related.
+(r / relate-01
+      :ARG1 (c / challenge-01
+            :ARG0 (a / and
+                  :op1 (f / fairness)
+                  :op2 (s / safe-01)))
+      :mod (l / level
+            :mod (t / technical)))
+
+# ::id s029 ::doc_id 179
+# ::snt The principl es to be respected include fairness and non- discrimination, and the right to privacy .
+(ii / include-91
+      :ARG1 (a / and
+            :op1 (a2 / and
+                  :op1 (f / fairness)
+                  :op2 (d / discriminate-01
+                        :polarity -))
+            :op2 (r / right-05
+                  :ARG2 (p / private-02)))
+      :ARG2 (d2 / discipline
+            :ARG1-of (r2 / respect-01)))
+
+# ::id s030 ::doc_id 17
+# ::snt Their efforts stalled after they were unable to agree on “broad technical solutions to the issues involved in fairness.” These precedents emphasize what the Fairness, Accountability and Transparency in Machine Learning community has been discovering: without a “tight connection to real world impact,” the added value of new fairness metrics and algorithms in the machine learning community could be minimal.
+(m / multi-sentence
+      :snt1 (s / stall-01
+            :ARG1 (e / effort-01
+                  :ARG0 (t / they))
+            :time (a / after
+                  :op1 (p / possible-01
+                        :polarity -
+                        :ARG1 (a2 / agree-01
+                              :ARG0 t
+                              :ARG1 (t2 / thing
+                                    :ARG2-of (s2 / solve-01
+                                          :ARG1 (ii / issue-02
+                                                :ARG0 (f / fairness))
+                                          :mod (t3 / technical)
+                                          :ARG1-of (b / broad-02)))))))
+      :snt2 (e2 / emphasize-01
+            :ARG0 (p2 / precedent
+                  :mod (t4 / this))
+            :ARG1 (d / discover-01
+                  :ARG0 (c / community
+                        :mod (m2 / machine
+                              :ARG0-of (l / learn-01))
+                        :consist-of (a3 / and
+                              :op1 (f2 / fairness)
+                              :op2 (a4 / accountable-02)
+                              :op3 (t5 / transparency)))
+                  :ARG1 (p3 / possible-01
+                        :ARG1 (m3 / minimal-02
+                              :ARG1 (t6 / thing
+                                    :ARG2-of (v / value-01
+                                          :ARG1 (a5 / and
+                                                :op1 (m4 / metric
+                                                      :mod f2)
+                                                :op2 (a6 / algorithm
+                                                      :mod f2)
+                                                :ARG1-of (n / new-01)
+                                                :location c)
+                                          :ARG1-of (a7 / add-02)))
+                              :condition (c2 / connect-01
+                                    :polarity -
+                                    :ARG1 c
+                                    :ARG2 (ii2 / impact-01
+                                          :ARG1 (w / world
+                                                :ARG1-of (r / real-04)))
+                                    :ARG1-of (t7 / tight-05)))))))
+
+# ::id s031 ::doc_id 193
+# ::snt Recommendation 17: Federal agencies that make grants to state and local governments in support of the use of AI -based systems to make consequential decisions about individuals should review the terms of grants to ensure that AI -based products or services purchased with Federal grant funds produce results in a sufficiently transparent fashion and are supported by evidence of efficacy and fairness.
+(r / recommend-01
+      :ARG1 (r2 / review-01
+            :ARG0 (a / agency
+                  :mod (f / federal)
+                  :ARG0-of (g / grant-01
+                        :ARG2 (a2 / and
+                              :op1 (g2 / government-organization
+                                    :ARG0-of (g3 / govern-01)
+                                    :mod (s / state))
+                              :op2 (g4 / government-organization
+                                    :ARG0-of (g5 / govern-01)
+                                    :ARG1-of (l / local-02)))
+                        :purpose (s2 / support-01
+                              :ARG0 a
+                              :ARG1 (u / use-01
+                                    :ARG1 (s3 / system
+                                          :ARG1-of (b / base-02
+                                                :ARG2 (ii / intelligent-01
+                                                      :mod (a3 / artificial))))
+                                    :ARG2 (d / decide-01
+                                          :ARG3 (ii2 / individual)
+                                          :ARG1-of (c / consequential-01))))))
+            :ARG1 (t / term-01
+                  :ARG1 (g6 / grant-01))
+            :purpose (e / ensure-01
+                  :ARG0 a
+                  :ARG1 (a4 / and
+                        :op1 (p / produce-01
+                              :ARG0 (o / or
+                                    :op1 (p2 / product
+                                          :ARG1-of (b2 / base-02
+                                                :ARG2 ii))
+                                    :op2 (s4 / serve-01
+                                          :ARG1-of (p3 / purchase-01
+                                                :ARG3 (f2 / fund-01
+                                                      :ARG0 g6))))
+                              :ARG1 (r3 / result-01
+                                    :manner (t2 / transparent
+                                          :ARG0-of (s5 / suffice-01))))
+                        :op2 s2
+                        :ARG0 (e2 / evidence-01
+                              :ARG1 (a5 / and
+                                    :op1 (e3 / effective-04)
+                                    :op2 (f3 / fair-01)))
+                        :ARG1 o)))
+      :ARG2 (p4 / publication
+            :mod 17))
+
+# ::id s032 ::doc_id 160
+# ::snt The notions of responsibility and fairness are core aspects of the field, and so could be seen a potential solutions in relation to the design and use of algorithms.
+(a / aspect
+      :ARG1-of (c / core-02)
+      :poss (f / field)
+      :domain (n / notion
+            :topic (a2 / and
+                  :op1 (r / responsible-02)
+                  :op2 (f2 / fairness)))
+      :ARG0-of (c2 / cause-01
+            :ARG1 (p / possible-01
+                  :ARG1 (s / see-01
+                        :ARG1 (t / thing
+                              :ARG2-of (s2 / solve-01)
+                              :mod (p2 / potential)
+                              :ARG1-of (r2 / relate-01
+                                    :ARG2 (a3 / and
+                                          :op1 (d / design-01
+                                                :ARG1 (a4 / algorithm))
+                                          :op2 (u / use-01
+                                                :ARG1 a4))))))))
+
+# ::id s033 ::doc_id 428
+# ::snt –Select data that fits criteria of fairness.
+(s / select-01
+      :ARG1 (d / data
+            :ARG1-of (f / fit-06
+                  :ARG2 (c / criteria
+                        :topic (f2 / fair-01)))))
+
+# ::id s034 ::doc_id 94
+# ::snt The group also discussed and explored the role of AI on young people’s access to rights (including, in particular, social rights), as well as the sustainability and fairness of the social security systems .
+(a / and
+      :op1 (d / discuss-01
+            :ARG0 (g / group)
+            :ARG1 (r / role
+                  :poss (ii / intelligent-01
+                        :mod (a2 / artificial))
+                  :topic (a3 / access-01
+                        :ARG0 (p / person
+                              :mod (y / young))
+                        :ARG1 (r2 / right-05
+                              :ARG1 p
+                              :ARG2-of (ii2 / include-01
+                                    :ARG1 (r3 / right-05
+                                          :mod (s / social)
+                                          :mod (p2 / particular)))))))
+      :op2 (e / explore-01
+            :ARG0 g
+            :ARG1 (a4 / and
+                  :op1 (s2 / sustain-01
+                        :ARG1 (s3 / system
+                              :mod (p3 / program
+                                    :name (n / name
+                                          :op1 "Social"
+                                          :op2 "Security")))
+                        :ARG1-of (p4 / possible-01))
+                  :op2 (f / fair-01
+                        :ARG1 s3)))
+      :mod (a5 / also))
+
+# ::id s035 ::doc_id 168
+# ::snt 'A Survey on Bias and Fairness in Machine Learning.
+(s / survey-01
+      :ARG2 (a / and
+            :op1 (b / bias-01)
+            :op2 (f / fairness)
+            :topic (l / learn-01
+                  :mod (m / machine))))
+
+# ::id s036 ::doc_id 47
+# ::snt transparency, fairness, non -discrimination).
+(a / and
+      :op1 (t / transparency)
+      :op2 (f / fairness)
+      :op3 (d / discriminate-01
+            :polarity -))
+
+# ::id s037 ::doc_id 38
+# ::snt 39 5.3 Fairness and predictions ................................
+(a / and
+      :op1 (f / fairness)
+      :op2 (p / predict-01)
+      :ord (o / ordinal-entity
+            :value 5.39))
+
+# ::id s038 ::doc_id 187
+# ::snt In fact, transparency and explainability may allow for the discovery of deficiencies, but they do not guarantee the reliability, security and fairness of an ADS.
+(c / contrast-01
+      :ARG1 (p / possible-01
+            :ARG1 (a / allow-01
+                  :ARG0 (a2 / and
+                        :op1 (t / transparency)
+                        :op2 (e / explain-01))
+                  :ARG1 (d / discover-01
+                        :ARG1 (d2 / deficiency)))
+            :mod (ii / in-fact))
+      :ARG2 (g / guarantee-01
+            :polarity -
+            :ARG0 a2
+            :ARG1 (a3 / and
+                  :op1 (r / rely-01
+                        :ARG1 (p2 / product
+                              :name (n / name
+                                    :op1 "ADS"))
+                        :ARG1-of (p3 / possible-01))
+                  :op2 (s / secure-02
+                        :ARG1 p2)
+                  :op3 (f / fair-01
+                        :ARG1 p2))))
+
+# ::id s039 ::doc_id 52
+# ::snt What good practice should a team then follow when seeking to ensure fairness in an algorithmic decision-making tool?
+(r / recommend-01
+      :ARG1 (f / follow-02
+            :ARG0 (t / team)
+            :ARG1 (p / practice-01
+                  :ARG1 (a / amr-unknown)
+                  :ARG1-of (g / good-02))
+            :time (t2 / then)
+            :time (s / seek-01
+                  :ARG0 t
+                  :ARG1 (e / ensure-01
+                        :ARG0 t
+                        :ARG1 (f2 / fair-01
+                              :ARG1 (t3 / tool
+                                    :instrument-of (m / make-01
+                                          :ARG1 (d / decide-01)
+                                          :manner (a2 / algorithm))))))))
+
+# ::id s040 ::doc_id 163
+# ::snt EU Member States must ensure in their national laws that personal data are processed in accordance with the principles of lawfulness, fairness , and transparency, processed only for specified and explicit purposes, be limited to what is necessary and kept safe and only for as l ong as necessary (Article 5).
+(o / obligate-01
+      :ARG1 (s / state
+            :ARG0-of (h / have-org-role-91
+                  :ARG1 (o2 / organization
+                        :name (n / name
+                              :op1 "EU"))
+                  :ARG2 (m / member)))
+      :ARG2 (e / ensure-01
+            :ARG0 s
+            :ARG1 (p / process-01
+                  :ARG1 (d / data
+                        :ARG1-of (p2 / personal-02)
+                        :ARG1-of (p3 / process-01
+                              :purpose (p4 / purpose
+                                    :ARG1-of (s2 / specify-01)
+                                    :ARG1-of (e2 / explicit-03)
+                                    :mod (o3 / only))))
+                  :ARG1-of (a / accord-02
+                        :ARG2 (p5 / principle
+                              :example (a2 / and
+                                    :op1 (l / lawfulness)
+                                    :op2 (f / fairness)
+                                    :op3 (t / transparency))))
+                  :ARG1-of (l2 / limit-01
+                        :ARG2 (a3 / and
+                              :op1 (t2 / thing
+                                    :ARG1-of (n2 / need-01))
+                              :op2 (k / keep-01
+                                    :ARG1 (s3 / safe-01
+                                          :ARG1 d))
+                              :op3 (h2 / have-purpose-91
+                                    :ARG2 (t3 / thing
+                                          :ARG1-of (h3 / have-quant-91
+                                                :ARG3 (e3 / equal)
+                                                :ARG4 (t4 / thing
+                                                      :ARG1-of (n3 / need-01))
+                                                :mod (o4 / only)))))))
+            :medium (l3 / law
+                  :mod (n4 / nation)
+                  :poss s))
+      :ARG1-of (d2 / describe-01
+            :ARG0 (a4 / article
+                  :mod 5)))
+
+# ::id s041 ::doc_id 69
+# ::snt 70 Fairness (5) Participation (5) Freedom of choice (5) Freedom of expression and of creation (5) Accountability (3) Competence and capacity (2) Independence (3) Individual autonomy (3) Cultural cooperation (2) Sustainability and Long -term Orientation (2) Despite the limitations of the analysis mentioned, it is clear that the first three principles are seen as key elements in the future regulation of AI and will therefore be its main focus.
+(c / clear-06
+      :li 70
+      :ARG1 (s / see-01
+            :ARG1 (p / principle
+                  :quant 3
+                  :ord (o / ordinal-entity
+                        :value 1))
+            :ARG2 (e / element
+                  :ARG1-of (k / key-02
+                        :ARG2 (r / regulate-01
+                              :ARG1 (ii / intelligent-01
+                                    :mod (a / artificial))
+                              :time (f / future))))
+            :ARG0-of (c2 / cause-01
+                  :ARG1 (f2 / focus-01
+                        :ARG0 r
+                        :ARG2 p
+                        :mod (m / main))))
+      :concession (l / limit-01
+            :ARG1 (a2 / analyze-01
+                  :ARG1-of (m2 / mention-01)))
+      :example (a3 / and
+            :op1 (f3 / fair-01)
+            :op2 (p2 / participate-01)
+            :op3 (f4 / free-04
+                  :ARG3 (c3 / choose-01))
+            :op4 (f5 / free-04
+                  :ARG3 (a4 / and
+                        :op1 (e2 / express-01)
+                        :op2 (c4 / create-01)))
+            :op5 (a5 / accountable-02)
+            :op6 (a6 / and
+                  :op1 (c5 / competent-01)
+                  :op2 (c6 / capacity))
+            :op7 (d / depend-01
+                  :polarity -)
+            :op8 (a7 / autonomy
+                  :mod (ii2 / individual))
+            :op9 (c7 / cooperate-01
+                  :mod (c8 / culture))
+            :op10 (a8 / and
+                  :op1 (s2 / sustain-01
+                        :ARG1-of (p3 / possible-01))
+                  :op2 (o2 / orient-01
+                        :ARG1-of (l2 / long-03)))
+            :op11 2))
+
+# ::id s042 ::doc_id 212
+# ::snt General data protection principles, including fairness, apply to all ADM Regardless of whether ADM and profiling practices fall under Article 22 or not, they must comply with the key principles outlined in Article 5 GDPR.
+(m / multi-sentence
+      :snt1 (a / apply-02
+            :ARG1 (p / principle
+                  :ARG0-of (p2 / protect-01
+                        :ARG1 (d / data))
+                  :ARG2-of (ii / include-01
+                        :ARG1 (f / fairness))
+                  :ARG1-of (g / general-02))
+            :ARG2 (c / company
+                  :name (n / name
+                        :op1 "ADM")
+                  :mod (a2 / all)))
+      :snt2 (o / obligate-01
+            :ARG1 (c2 / comply-01
+                  :ARG0 (a3 / and
+                        :op1 c
+                        :op2 (p3 / practice-01
+                              :ARG1 (p4 / profile-01)))
+                  :ARG1 (p5 / principle
+                        :ARG1-of (k / key-02)
+                        :ARG1-of (o2 / outline-01
+                              :ARG0 (l / law
+                                    :name (n2 / name
+                                          :op1 "Article"
+                                          :op2 5
+                                          :op3 "GDPR")))))
+            :ARG1-of (r / regardless-91
+                  :ARG2 (o3 / or
+                        :op1 (f2 / fall-01
+                              :ARG1 a3
+                              :ARG2 (l2 / law
+                                    :name (n3 / name
+                                          :op1 "Article"
+                                          :op2 22)))
+                        :op2 (f3 / fall-01
+                              :polarity -
+                              :ARG1 a3
+                              :ARG2 l2)))))
+
+# ::id s043 ::doc_id 193
+# ::snt Also , where regulatory responses to the ad dition of AI threaten to increase the cost of compliance , or slow the development or adoption of beneficial innovations, policymakers should consider how those responses could be adjusted to lower costs and barriers to innovation without adversely impactin g safety or market fairness .
+(r / recommend-01
+      :ARG1 (c / consider-02
+            :ARG0 (p / person
+                  :ARG0-of (l / legislate-01))
+            :ARG1 (t / thing
+                  :manner-of (a / adjust-01
+                        :ARG1 (r2 / respond-01
+                              :ARG1 (a2 / administer-01
+                                    :ARG1 (a3 / artificial))
+                              :ARG2 (r3 / regulate-01))
+                        :ARG2 (a4 / and
+                              :op1 (c2 / cost-01
+                                    :ARG1 (c3 / comply-01))
+                              :op2 (s / slow-01
+                                    :ARG1 (o / or
+                                          :op1 (d / develop-02
+                                                :ARG1 (ii / innovate-01
+                                                      :ARG1-of (b / benefit-01)))
+                                          :op2 (a5 / adopt-01
+                                                :ARG1 ii))))
+                        :manner (ii2 / impact-01
+                              :polarity -
+                              :ARG1 (o2 / or
+                                    :op1 (s2 / safe-01)
+                                    :op2 (f / fair-01
+                                          :ARG1 (m / market)))
+                              :manner (a6 / adverse))
+                        :ARG1-of (p2 / possible-01))))
+      :mod (a7 / also)
+      :condition (t2 / threaten-01
+            :ARG0 r2
+            :ARG1 (o3 / or
+                  :op1 (ii3 / increase-01
+                        :ARG0 r2
+                        :ARG1 (c4 / cost-01
+                              :ARG1 c3)))
+            :op2 s))
+
+# ::id s044 ::doc_id 377
+# ::snt © Tieto Corporation1Tieto’s AI ethics guidelinesHuman rightsEnsuringthe freedomand libertyor peopleto serve the social good.Safety & securityAI systemsarebuiltto preventmisuseand reducetheriskof beingcompromised.Responsibility CommittedtoharnessAI forgood,fortheplanet andhumankind.Fairness & equalityUnbiased, fairandinclusiveAI fosteringdiversityandequalityamongpeople.TransparencyStrivingtowardsAI thatcanbeexplainedandexplainitself.
+(m / multi-sentence
+      :snt1 (c / copyright-01
+            :ARG0 (c2 / company
+                  :name (n / name
+                        :op1 "Tieto"
+                        :op2 "Corporation1Tieto's"
+                        :op3 "Ethics"
+                        :op4 "Guidelines"))
+            :ARG1 (g / guideline
+                  :topic (ii / intelligent-01
+                        :mod (a / artificial))))
+      :snt2 (e / ensure-01
+            :ARG0 (r / right-05
+                  :ARG1 (h / human))
+            :ARG1 (s / serve-01
+                  :ARG0 (o / or
+                        :op1 (f / free-04)
+                        :op2 (l / liberty)
+                        :op3 (p / person))
+                  :ARG1 (g2 / good-04
+                        :ARG1 (s2 / society))))
+      :snt3 (p2 / prove-01
+            :ARG0 (s3 / system
+                  :mod (ii2 / intelligent-01
+                        :mod a)))
+      :ARG1 (a2 / and
+            :op1 (s4 / safe-01)
+            :op2 (s5 / security))
+      :purpose (p3 / prevent-01
+            :ARG0 s3
+            :ARG1 (a3 / and
+                  :op1 (m2 / misuse-01)
+                  :op2 (r2 / reduce-01
+                        :ARG0 s3
+                        :ARG1 (c3 / compromise-02))))
+      :snt4 (c4 / commit-01
+            :ARG0 (r3 / responsible-03
+                  :ARG1 ii)
+            :ARG2 (a4 / and
+                  :op1 g2
+                  :ARG1 ii
+                  :ARG2 (a5 / and
+                        :op1 (p4 / planet)
+                        :op2 (h2 / humankind)))
+            :op2 (a6 / and
+                  :op1 (b / bias-01
+                        :polarity -
+                        :ARG1 ii)
+                  :op2 (f2 / fair-01
+                        :polarity -
+                        :ARG1 ii)
+                  :op3 (ii3 / inclusive
+                        :domain ii))
+            :ARG0-of (f3 / foster-01
+                  :ARG1 (a7 / and
+                        :op1 (d / diversity)
+                        :op2 (e2 / equal-01)
+                        :prep-among (p5 / person))))
+      :snt5 (t / transparency)
+      :snt6 p2
+      :ARG0 (ii4 / i)
+      :ARG1 ii2
+      :ARG1-of (p6 / possible-01))
+
+# ::id s045 ::doc_id 160
+# ::snt In contrast to transparency and accountability, we do not suggest that fairness is to be considered as a tool to facilitate best practice in algorithmic systems.
+(c / contrast-01
+      :ARG1 (s / suggest-01
+            :polarity -
+            :ARG0 (w / we)
+            :ARG1 (c2 / consider-02
+                  :ARG1 (f / fairness)
+                  :ARG2 (t / tool
+                        :purpose (f2 / facilitate-01
+                              :ARG0 f
+                              :ARG1 (p / practice-01
+                                    :ARG1 (s2 / system
+                                          :mod (a / algorithm))
+                                    :ARG1-of (h / have-degree-91
+                                          :ARG2 (g / good-02
+                                                :ARG1 p)
+                                          :ARG3 (m / most)))))))
+      :ARG2 (a2 / and
+            :op1 (t2 / transparency)
+            :op2 (a3 / accountable-02)))
+
+# ::id s046 ::doc_id 52
+# ::snt It is always better to acknowledge biases, understand underlying causes, and address them as far as possible, but the “correct“ approach for ensuring fairness in an algorithmic decision-making tool will depend strongly on use case and context.
+(c / contrast-01
+      :ARG1 (h / have-degree-91
+            :ARG1 (a / and
+                  :op1 (a2 / acknowledge-01
+                        :ARG1 (b / bias-01))
+                  :op2 (u / understand-01
+                        :ARG1 (c2 / cause
+                              :ARG0-of (u2 / underlie-01)))
+                  :op3 (a3 / address-02
+                        :ARG1 b
+                        :ARG1-of (h2 / have-degree-91
+                              :ARG2 (f / far)
+                              :ARG3 (e / equal)
+                              :ARG4 (p / possible-01
+                                    :ARG1 a3))))
+            :ARG2 (g / good-02
+                  :ARG1 a)
+            :ARG3 (m / more)
+            :time (a4 / always))
+      :ARG2 (d / depend-01
+            :ARG0 (a5 / approach-02
+                  :ARG1 (e2 / ensure-01
+                        :ARG1 (f2 / fair-01
+                              :ARG1 (t / tool
+                                    :instrument-of (m2 / make-01
+                                          :ARG1 (d2 / decide-01)
+                                          :manner (a6 / algorithm)))))
+                  :ARG1-of (c3 / correct-02))
+            :ARG1 (a7 / and
+                  :op1 (c4 / case-04
+                        :ARG1-of (u3 / use-01))
+                  :op2 (c5 / context))
+            :ARG1-of (s / strong-02)))
+
+# ::id s047 ::doc_id 351
+# ::snt For more detailed information about the specific meanings of transparency, accountability, and fairness as data protection principles in the context of the GDPR and the DPA 2018, please refer to the Guide to Data Protection produced by the Information Commissioner’s Office.
+(r / refer-03
+      :mode imperative
+      :polite +
+      :ARG0 (y / you)
+      :ARG1 (p / publication
+            :name (n / name
+                  :op1 "Guide"
+                  :op2 "to"
+                  :op3 "Data"
+                  :op4 "Protection")
+            :ARG1-of (p2 / produce-01
+                  :ARG0 (o / organization
+                        :name (n2 / name
+                              :op1 "Information"
+                              :op2 "Commissioner's"
+                              :op3 "Office"))))
+      :purpose (ii / information
+            :ARG1-of (d / detail-01)
+            :topic (m / mean-01
+                  :ARG1 (p3 / principle
+                        :topic (p4 / protect-01
+                              :ARG1 (d2 / data)))
+                  :ARG2 (a / and
+                        :op1 (t / transparency)
+                        :op2 (a2 / accountable-02)
+                        :op3 (f / fairness))
+                  :ARG1-of (s / specific-02))
+            :location (c / context
+                  :op1 (a3 / and
+                        :op1 (o2 / organization
+                              :name (n3 / name
+                                    :op1 "GDPR"))
+                        :op2 (o3 / organization
+                              :name (n4 / name
+                                    :op1 "DPA")
+                              :time (d3 / date-entity
+                                    :year 2018))))
+            :ARG1-of (h / have-quant-91
+                  :ARG3 (m2 / more))))
+
+# ::id s048 ::doc_id 52
+# ::snt Ensuring fairness in how the public sector uses algorithms in decision-making is crucial.
+(c / crucial
+      :domain (e / ensure-01
+            :ARG1 (f / fairness
+                  :domain (t / thing
+                        :manner-of (u / use-01
+                              :ARG0 (s / sector
+                                    :ARG1-of (p / public-02))
+                              :ARG1 (a / algorithm)
+                              :ARG2 (m / make-18
+                                    :ARG0 s
+                                    :ARG1 (d / decide-01
+                                          :ARG0 s)))))))
+
+# ::id s049 ::doc_id 351
+# ::snt Problem formulation and fairness.
+(a / and
+      :op1 (f / formulate-01
+            :ARG1 (p / problem))
+      :op2 (f2 / fair-01))
+
+# ::id s050 ::doc_id 264
+# ::snt We outsourced our AI system development to an AI system developer and have receive d explanations from development personnel in areas ranging from data set content to the verification of AI model behavior to ensure that we are able to address not only the matter of accuracy but also fairness.
+(a / and
+      :op1 (o / outsource-01
+            :ARG0 (w / we)
+            :ARG1 (d / develop-02
+                  :ARG1 (s / system
+                        :mod (ii / intelligent-01
+                              :mod (a2 / artificial))))
+            :ARG2 (p / person
+                  :ARG0-of (d2 / develop-02
+                        :ARG1 s)))
+      :op2 (r / receive-01
+            :ARG0 w
+            :ARG1 (e / explain-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (h / have-org-role-91
+                              :ARG2 (p3 / personnel
+                                    :ARG0-of (d3 / develop-02))))
+                  :ARG1 (a3 / area
+                        :ARG1-of (r2 / range-01
+                              :ARG3 (c / content
+                                    :mod (d4 / data
+                                          :mod (s2 / set)))
+                              :ARG4 (v / verify-01
+                                    :ARG1 (b / behave-01
+                                          :ARG0 (m / model
+                                                :mod ii)))))
+                  :ARG2 w
+                  :purpose (e2 / ensure-01
+                        :ARG0 w
+                        :ARG1 (p4 / possible-01
+                              :ARG1 (a4 / address-02
+                                    :ARG0 w
+                                    :ARG1 (a5 / and
+                                          :op1 (m2 / matter
+                                                :topic (a6 / accurate))
+                                          :op2 (m3 / matter
+                                                :topic (f / fair-01)
+                                                :mod (a7 / also)))))))))
+
+# ::id s051 ::doc_id 264
+# ::snt Example: Did the AI system operator understand the precautions related to fairness that were summarized by the AI system developer?
+(e / exemplify-01
+      :ARG0 (u / understand-01
+            :ARG0 (p / person
+                  :ARG0-of (o / operate-01
+                        :ARG1 (s / system
+                              :mod (ii / intelligent-01
+                                    :mod (a / artificial)))))
+            :ARG1 (p2 / precaution-02
+                  :ARG1-of (r / relate-01
+                        :ARG2 (f / fairness))
+                  :ARG1-of (s2 / summarize-01
+                        :ARG0 (p3 / person
+                              :ARG0-of (d / develop-02
+                                    :ARG1 s))))
+            :polarity (a2 / amr-unknown)))
+
+# ::id s052 ::doc_id 351
+# ::snt Targeted principles such as fairness, accountability, sustainability , and transparency are meant to ‘ fill the gap ’ between the new ‘smart agency’ of machines and their fundamental lack of moral responsibility.
+(m / mean-02
+      :ARG1 (p / principle
+            :example (a / and
+                  :op1 (f / fairness)
+                  :op2 (a2 / accountable-02)
+                  :op3 (s / sustain-01
+                        :ARG1-of (p2 / possible-01))
+                  :op4 (t / transparency))
+            :ARG1-of (t2 / target-01))
+      :ARG2 (f2 / fill-01
+            :ARG0 p
+            :ARG1 (g / gap
+                  :mod (b / between
+                        :op1 (a3 / agency
+                              :ARG1-of (s2 / smart-06)
+                              :ARG1-of (n / new-01)
+                              :mod (m2 / machine))
+                        :op2 (l / lack-01
+                              :ARG0 m2
+                              :ARG1 (r / responsible-02
+                                    :ARG0 m2
+                                    :ARG1-of (m3 / moral-02))
+                              :mod (f3 / fundamental))))))
+
+# ::id s053 ::doc_id 207
+# ::snt (2020), Why fairness cannot be automated: bridging the gap between EU nondiscrimination law and AI .
+(m / multi-sentence
+      :snt1 (c / cause-01
+            :ARG0 (a / amr-unknown)
+            :ARG1 (p / possible-01
+                  :polarity -
+                  :ARG1 (a2 / automate-01
+                        :ARG1 (f / fairness)))
+            :time (d / date-entity
+                  :year 2020))
+      :snt2 (b / bridge-01
+            :ARG1 (g / gap
+                  :mod (l / law
+                        :mod (o / organization
+                              :name (n / name
+                                    :op1 "EU"))
+                        :topic (d2 / discriminate-02
+                              :polarity -)))
+            :ARG2 (ii / intelligent-01
+                  :mod (a3 / artificial))))
+
+# ::id s054 ::doc_id 274
+# ::snt Roth, “Fairness in Reinforcement Learning,” arXiv:1611.03071 [cs] , Aug.
+(p / publication-91
+      :ARG0 (p2 / person
+            :name (n / name
+                  :op1 "Roth"))
+      :ARG1 (p3 / publication
+            :name (n2 / name
+                  :op1 "Fairness"
+                  :op2 "in"
+                  :op3 "Reinforcement"
+                  :op4 "Learning"))
+      :ARG4 (j / journal
+            :name (n3 / name
+                  :op1 "ArXiv"))
+      :time (d / date-entity
+            :month 8
+            :day 11))
+
+# ::id s055 ::doc_id 429
+# ::snt – The FATML (Fairness, Accountability and Transparency in Machine Learning) Principles (2016) – on accountable algorithms; developed by a large network of scientists, researchers, and industry professionals.
+(a / and
+      :op1 (p / publication
+            :name (n / name
+                  :op1 "FATML")
+            :ARG1-of (m / mean-01
+                  :ARG2 (a2 / and
+                        :op1 (f / fairness)
+                        :op2 (a3 / accountable-02)
+                        :op3 (t / transparency)
+                        :topic (l / learn-01
+                              :mod (m2 / machine))))
+            :time (d / date-entity
+                  :year 2016))
+      :op2 (d2 / develop-02
+            :ARG0 (n2 / network
+                  :mod (l2 / large)
+                  :consist-of (a4 / and
+                        :op1 (s / scientist)
+                        :op2 (p2 / person
+                              :ARG0-of (r / research-01))
+                        :op3 (p3 / professional
+                              :mod (ii / industry))))
+            :ARG1 (a5 / algorithm
+                  :ARG0-of (a6 / accountable-02))))
+
+# ::id s056 ::doc_id 16
+# ::snt Separately, ​ ​ criminologist ​ ​ Richard ​ ​ Berk ​ ​ and ​ ​ his ​ ​ colleagues ​ ​ argue ​ ​ that ​ ​ there ​ ​ are ​ ​ intractable tradeoffs ​ ​ between ​ ​ accuracy ​ ​ and ​ ​ fairness—the ​ ​ occurrence ​ ​ of ​ ​ false ​ ​ positives ​ ​ and negatives—in ​ ​ populations ​ ​ where ​ ​ base ​ ​ rates ​ ​ (the ​ ​ percentage ​ ​ of ​ ​ a ​ ​ given ​ ​ population ​ ​ that ​ ​ fall into ​ ​ a ​ ​ specific ​ ​ category) ​ ​ vary ​ ​ between ​ ​ different ​ ​ social ​ ​ groups.
+(a / argue-01
+      :ARG0 (a2 / and
+            :op1 (p / person
+                  :name (n / name
+                        :op1 "Richard"
+                        :op2 "Berk")
+                  :ARG0-of (h / have-org-role-91
+                        :ARG2 (c / criminologist)))
+            :op2 (p2 / person
+                  :ARG0-of (h2 / have-rel-role-91
+                        :ARG1 p
+                        :ARG2 (c2 / colleague))))
+      :ARG1 (t / tradeoff-02
+            :ARG1 (a3 / accurate)
+            :ARG2 (f / fairness)
+            :ARG1-of (c3 / cause-01
+                  :ARG0 (a4 / and
+                        :op1 (p3 / positive
+                              :mod (f2 / false))
+                        :op2 (n2 / negative-02)
+                        :location (p4 / population
+                              :location-of (v / vary-01
+                                    :ARG1 (p5 / percentage
+                                          :ARG1-of (ii / include-91
+                                                :ARG2 (p6 / population
+                                                      :ARG1-of (g / give-01)
+                                                      :ARG1-of (c4 / categorize-01
+                                                            :ARG2 (c5 / category
+                                                                  :ARG1-of (s / specific-02))))))))))
+            :ARG1-of (t2 / tractable
+                  :polarity -))
+      :ARG1-of (s2 / separate-02))
+
+# ::id s057 ::doc_id 136
+# ::snt 1.7 Accountability The requirement of accountability complements the above requirements , and is closely linked to the principle of fairness .
+(a / and
+      :li 1.7
+      :op1 (c / complement-01
+            :ARG0 (r / require-01
+                  :ARG1 (a2 / accountable-02))
+            :ARG1 (r2 / require-01
+                  :location (a3 / above)))
+      :op2 (l / link-01
+            :ARG1 r
+            :ARG2 (p / principle
+                  :topic (f / fair-01))
+            :ARG1-of (c2 / close-10)))
+
+# ::id s058 ::doc_id 350
+# ::snt NOT APPLICABLE : No message 154 Non-discrimination, fairness, and equality 54) Will sufficient and transparently reported processes be implemented throughout the project’s lifecycle to ensure that the AI system, in both its production and use, mitigates possible sources of bias and discrimin atory patterns in each of the following: a.
+(m / multi-sentence
+      :snt1 (a / apply-01
+            :polarity -
+            :ARG1 (m2 / message
+                  :mod 154
+                  :topic (a2 / and
+                        :op1 (d / discriminate-02
+                              :polarity -)
+                        :op2 (f / fairness)
+                        :op3 (e / equal-01))))
+      :snt2 (ii / implement-01
+            :li 54
+            :ARG1 (p / process-02
+                  :ARG0-of (s / suffice-01)
+                  :ARG1-of (r / report-01
+                        :manner (t / transparent)))
+            :duration (l / lifecycle
+                  :poss (p2 / project))
+            :purpose (e2 / ensure-01
+                  :ARG0 p
+                  :ARG1 (m3 / mitigate-01
+                        :ARG0 (s2 / system
+                              :ARG0-of (ii2 / intelligent-01
+                                    :mod (a3 / artificial)))
+                        :ARG1 (s3 / source-02
+                              :ARG1 (a4 / and
+                                    :op1 (b / bias-01)
+                                    :op2 (d2 / discriminate-02)
+                                    :mod (a5 / atory))
+                              :ARG1-of (p3 / possible-01)
+                              :example (a6 / and
+                                    :op1 (p4 / pattern
+                                          :li "a")
+                                    :op2 (p5 / pattern
+                                          :li "b")
+                                    :ARG1-of (f2 / follow-01)))))))
+
+# ::id s059 ::doc_id 165
+# ::snt One of the first analyses in this r espect is a recently published report of the European Commission Expert Group entitled 'Ethics of Connected and A utomated Vehicles – Recommendations on road safety, privacy, fairness, explainability and responsibility '.26 This report makes 20 specific ethical recommendations concerning the future development and deployment of CAVs.
+(r / recommend-01
+      :li 26
+      :ARG0 (r2 / report-01
+            :ARG0 (g / group
+                  :name (n / name
+                        :op1 "European"
+                        :op2 "Commission"
+                        :op3 "Expert"
+                        :op4 "Group"))
+            :ARG1 (r3 / report-01
+                  :ARG1 (e / ethics
+                        :topic (a / and
+                              :op1 (v / vehicle
+                                    :ARG1-of (c / connect-01))
+                              :op2 (v2 / vehicle
+                                    :ARG1-of (a2 / automate-01)))
+                        :ARG1-of (t / title-01
+                              :ARG2 (r4 / recommend-01
+                                    :ARG1 (a3 / and
+                                          :op1 (s / safe-01
+                                                :ARG1 (r5 / road))
+                                          :op2 (p / privacy)
+                                          :op3 (f / fairness)
+                                          :op4 (e2 / explain-01
+                                                :ARG1-of (p2 / possible-01))
+                                          :op5 (r6 / responsible-03)))))
+                  :ARG1-of (p3 / publish-01
+                        :time (r7 / recent)))
+            :ARG1-of (ii / include-91
+                  :ARG2 (a4 / analyze-01
+                        :ord (o / ordinal-entity
+                              :value 1)
+                        :part-of (r8 / regard
+                              :mod (t2 / this)))))
+      :ARG1 (r9 / recommend-01
+            :quant 20
+            :topic (a5 / and
+                  :op1 (d / develop-02
+                        :ARG1 (v3 / vehicle
+                              :ARG1-of a2)
+                        :mod (c2 / carrier))
+                  :time (f2 / future))
+            :op2 (d2 / deploy-01
+                  :ARG1 v3))
+      :mod (e3 / ethics)
+      :ARG1-of (s2 / specific-02))
+
+# ::id s060 ::doc_id 350
+# ::snt Non-discrimination, fairness, and equality IDENTIFYING POTENTIA L ADVERSE IMPACTS How, if at all, could the AI system (either in the processes of its production or in its deployment) result in discrimination, have discriminatory effects on impacted rights -holders, or perfor m differentially for different groups in discriminatory or harmful ways — including for intersectional groups where vulnerable or protected characteristics converge?
+(m / multi-sentence
+      :snt1 (d / discriminate-02
+            :polarity -
+            :ARG0 (a / and
+                  :op1 (d2 / discriminate-02)
+                  :op2 (f / fairness)
+                  :op3 (e / equal-01))
+            :ARG0-of (d3 / discriminate-02)
+            :ARG0-of (d4 / discriminate-02)
+            :ARG0-of (d5 / discriminate-02
+                  :ARG0-of (a2 / affect-01
+                        :ARG1 (p / person
+                              :ARG0-of (h / hold-01
+                                    :ARG1 (r / right-05))
+                              :ARG1-of (ii / impact-01)))))
+      :snt2 (p2 / possible-01
+            :ARG1 (o / or
+                  :op1 (r2 / result-01
+                        :ARG1 (s / system
+                              :mod (a3 / artificial))
+                        :ARG2 (d6 / discriminate-02))
+                  :op2 (a4 / affect-01
+                        :ARG0 s
+                        :ARG1 (g / group
+                              :ARG1-of (d7 / differ-02))
+                        :manner (o2 / or
+                              :op1 (d8 / discriminate-02)
+                              :op2 (h2 / harmful-02)))
+                  :ARG2-of (ii2 / include-91
+                        :ARG1 (g2 / group
+                              :mod (ii3 / intersectional)
+                              :location-of (c / converge-01
+                                    :ARG0 (o3 / or
+                                          :op1 (t / thing
+                                                :ARG2-of (c2 / characteristic-02)
+                                                :ARG1-of (v / vulnerable-01))
+                                          :op2 (t2 / thing
+                                                :ARG2-of (c3 / characteristic-02)
+                                                :ARG1-of (p3 / protect-01)))))))
+            :condition (a5 / at-all)
+            :manner (a6 / amr-unknown)))
+
+# ::id s061 ::doc_id 52
+# ::snt In the world before AI there were many different concepts of fairness.
+(c / concept
+      :topic (f / fair-01)
+      :ARG1-of (d / differ-02)
+      :quant (m / many)
+      :location (w / world
+            :time (b / before
+                  :op1 (ii / intelligent-01
+                        :mod (a / artificial)))))
+
+# ::id s062 ::doc_id 40
+# ::snt The presence of a statistical bias may lead to a fairness bias, but this is neither a sufficient nor a necessary condition.
+(c / contrast-01
+      :ARG1 (p / possible-01
+            :ARG1 (l / lead-03
+                  :ARG0 (p2 / present-02
+                        :ARG1 (b / bias-01
+                              :ARG1 (s / statistics)))
+                  :ARG2 (b2 / bias-01
+                        :ARG3 (f / fair-01))))
+      :ARG2 (a / and
+            :op1 (s2 / suffice-01
+                  :polarity -
+                  :ARG0 p2)
+            :op2 (n / need-01
+                  :polarity -
+                  :ARG1 p2)
+            :domain (c2 / condition)))
+
+# ::id s063 ::doc_id 71
+# ::snt Equal treatment of the parties is regarded as one of the major principles of successful ODR.38 Without this principle, ODR cannot addressed the concerns of fairness.
+(m / multi-sentence
+      :li 38
+      :snt1 (r / regard-01
+            :ARG1 (t / treat-01
+                  :ARG1 (p / party)
+                  :ARG1-of (e / equal-01))
+            :ARG2 (p2 / principle
+                  :ARG1-of (ii / include-91
+                        :ARG2 (p3 / principle
+                              :ARG1-of (m2 / major-02)
+                              :poss (b / book
+                                    :name (n / name
+                                          :op1 "ODR")
+                                    :ARG1-of (s / succeed-01))))))
+      :snt2 (h / have-condition-91
+            :ARG1 (p4 / possible-01
+                  :polarity -
+                  :ARG1 (a / address-02
+                        :ARG0 b
+                        :ARG1 (c / concern-01
+                              :ARG0 (f / fairness))))
+            :ARG2 (p5 / principle
+                  :polarity -
+                  :mod (t2 / this))))
+
+# ::id s064 ::doc_id 212
+# ::snt As the cases in this Report show, fairness is already linked to non-discrimination, but the principle is generous enough to potentially include imbalances of power and other dimensions that will be clarified as case-law evolves.
+(c / contrast-01
+      :ARG1 (l / link-01
+            :ARG1 (f / fairness)
+            :ARG2 (d / discriminate-02
+                  :polarity -)
+            :time (a / already)
+            :ARG1-of (s / show-01
+                  :ARG0 (c2 / case-03
+                        :medium (r / report
+                              :mod (t / this)))))
+      :ARG2 (h / have-degree-91
+            :ARG1 (p / principle)
+            :ARG2 (g / generous-01
+                  :ARG1 p)
+            :ARG3 (e / enough)
+            :ARG6 (ii / include-01
+                  :ARG0 p
+                  :ARG1 (b / balance-01
+                        :polarity -
+                        :ARG1 (a2 / and
+                              :op1 (p2 / power)
+                              :op2 (d2 / dimension
+                                    :mod (o / other))
+                              :ARG1-of (c3 / clarify-10
+                                    :time (e2 / evolve-01
+                                          :ARG1 (l2 / law
+                                                :mod (c4 / case-03))))))
+                  :mod (p3 / potential))))
+
+# ::id s065 ::doc_id 52
+# ::snt However, these efforts tend to be focused on data protection and accuracy, rather than fairness and discrimination.
+(c / contrast-01
+      :ARG2 (t / tend-02
+            :ARG1 (e / effort-01
+                  :mod (t2 / this))
+            :ARG2 (f / focus-01
+                  :ARG1 e
+                  :ARG2 (a / and
+                        :op1 (p / protect-01
+                              :ARG1 (d / data))
+                        :op2 (a2 / accuracy)
+                        :ARG1-of (ii / instead-of-91
+                              :ARG2 (a3 / and
+                                    :op1 (f2 / fair-01)
+                                    :op2 (d2 / discriminate-01)))))))
+
+# ::id s066 ::doc_id 274
+# ::snt Therefore, when we consider the computational approaches to mitigating bias, we must take into consideration these three components together: algorithms, data, and fairness metrics.
+(c / cause-01
+      :ARG1 (o / obligate-01
+            :ARG2 (c2 / consider-02
+                  :ARG0 (w / we)
+                  :ARG1 (c3 / component
+                        :quant 3
+                        :mod (t / this)
+                        :ARG1-of (m / mean-01
+                              :ARG2 (a / and
+                                    :op1 (a2 / algorithm)
+                                    :op2 (d / data)
+                                    :op3 (m2 / metric
+                                          :mod (f / fairness))))
+                        :mod (t2 / together)))
+            :time (c4 / consider-02
+                  :ARG0 w
+                  :ARG1 (a3 / approach-02
+                        :ARG1 (m3 / mitigate-01
+                              :ARG1 (b / bias-01))
+                        :mod (c5 / computer)))))
+
+# ::id s067 ::doc_id 173
+# ::snt European Skills Agenda for sustainable competitiveness, social fairness and resilience .
+(a / and
+      :op1 (a2 / agenda
+            :topic (s / skill)
+            :mod (c / continent
+                  :name (n / name
+                        :op1 "Europe")))
+      :op2 (c2 / competitiveness
+            :ARG1-of (s2 / sustain-01
+                  :ARG1-of (p / possible-01)))
+      :op3 (f / fairness
+            :mod (s3 / society))
+      :op4 (r / resilience))
+
+# ::id s068 ::doc_id 52
+# ::snt Human developers and users of algorithms must decide the concepts of fairness that apply to their context, and ensure that algorithms deliver fair outcomes.
+(o / obligate-01
+      :ARG1 (a / and
+            :op1 (p / person
+                  :ARG0-of (d / develop-02)
+                  :mod (h / human))
+            :op2 (p2 / person
+                  :ARG0-of (u / use-01
+                        :ARG1 (a2 / algorithm))))
+      :ARG2 (a3 / and
+            :op1 (d2 / decide-01
+                  :ARG0 a
+                  :ARG1 (c / concept
+                        :topic (f / fairness)
+                        :ARG1-of (a4 / apply-02
+                              :ARG2 (c2 / context
+                                    :poss a))))
+            :op2 (e / ensure-01
+                  :ARG0 a
+                  :ARG1 (d3 / deliver-01
+                        :ARG0 a2
+                        :ARG1 (o2 / outcome
+                              :ARG1-of (f2 / fair-01))))))
+
+# ::id s069 ::doc_id 73
+# ::snt p.6 "Furthermore, depending on the specific application various aspects (safety, fairness, privacy, security) have different relevance which must be considered by such a labelling scheme ".
+(a / and
+      :op2 (r / relevant-01
+            :ARG1 (a2 / aspect
+                  :mod (v / various)
+                  :example (a3 / and
+                        :op1 (s / safe-01)
+                        :op2 (f / fairness)
+                        :op3 (p / privacy)
+                        :op4 (s2 / security)))
+            :ARG1-of (d / differ-02)
+            :ARG1-of (c / consider-02
+                  :ARG0 (s3 / scheme-01
+                        :ARG1 (l / label-01
+                              :mod (s4 / such)))
+                  :ARG2-of (o / obligate-01))
+            :ARG0-of (d2 / depend-01
+                  :ARG1 (a4 / apply-02
+                        :ARG1-of (s5 / specific-02))))
+      :mod (f2 / furthermore)
+      :ARG1-of (c2 / cite-01
+            :ARG2 6))
+
+# ::id s070 ::doc_id 193
+# ::snt AI and Regulation AI has applications in many products, such as cars and air craft, which are subject to regulation designed to protect the public from harm and ensure fairness in economic competition .
+(m / multi-sentence
+      :snt1 (a / apply-02
+            :ARG1 (a2 / and
+                  :op1 (ii / intelligent-01
+                        :mod (a3 / artificial))
+                  :op2 (ii2 / intelligent-01
+                        :mod (a4 / artificial)
+                        :ARG1-of (r / regulate-01)))
+            :ARG2 (p / product
+                  :quant (m2 / many)
+                  :example (a5 / and
+                        :op1 (c / car)
+                        :op2 (c2 / craft
+                              :mod (a6 / air)))
+                  :ARG1-of (s / subject-01
+                        :ARG2 (r2 / regulate-01
+                              :ARG1-of (d / design-01
+                                    :ARG3 (a7 / and
+                                          :op1 (p2 / protect-01
+                                                :ARG0 r2
+                                                :ARG1 (p3 / public)
+                                                :ARG2 (h / harm-01
+                                                      :ARG1 p3))
+                                          :op2 (e / ensure-01
+                                                :ARG0 r2
+                                                :ARG1 (f / fair-01
+                                                      :ARG1 (c3 / compete-01
+                                                            :mod (e2 / economy)))))))))))
+
+# ::id s071 ::doc_id 17
+# ::snt IBM released the “AI Fairness 360” open-source tool kit, which includes nine different algorithms and many other fairness metrics developed by researchers in the Fairness, Accountability and Transparency in Machine Learning community.
+(r / release-01
+      :ARG0 (c / company
+            :name (n / name
+                  :op1 "IBM"))
+      :ARG1 (k / kit
+            :name (n2 / name
+                  :op1 "AI"
+                  :op2 "Fairness"
+                  :op3 360)
+            :mod (t / tool)
+            :ARG1-of (o / open-04)
+            :ARG2-of (ii / include-01
+                  :ARG1 (a / and
+                        :op1 (a2 / algorithm
+                              :quant 9
+                              :ARG1-of (d / differ-02))
+                        :op2 (m / metric
+                              :mod (f / fairness)
+                              :mod (o2 / other)
+                              :quant (m2 / many)
+                              :ARG1-of (d2 / develop-02
+                                    :ARG0 (p / person
+                                          :ARG0-of (r2 / research-01)
+                                          :part-of (c2 / community
+                                                :name (n3 / name
+                                                      :op1 "Fairness"
+                                                      :op2 ","
+                                                      :op3 "Accountability"
+                                                      :op4 "and"
+                                                      :op5 "Transparency"
+                                                      :op6 "in"
+                                                      :op7 "Machine"
+                                                      :op8 "Learning")))))))))
+
+# ::id s072 ::doc_id 38
+# ::snt It is important for government and society to give consideration to the degree of flexibility that designers of AI systems should have when it comes to making trade -offs between fairness m easures and other priorities like profit .
+(ii / important-01
+      :ARG1 (c / consider-02
+            :ARG0 (a / and
+                  :op1 (g / government-organization
+                        :ARG0-of (g2 / govern-01))
+                  :op2 (s / society))
+            :ARG1 (d / degree
+                  :degree-of (f / flexibility
+                        :ARG1-of (h / have-03
+                              :ARG0 (p / person
+                                    :ARG0-of (d2 / design-01
+                                          :ARG1 (s2 / system
+                                                :mod (a2 / artificial))))
+                              :ARG1-of (r / recommend-01)
+                              :time (c2 / come-12
+                                    :ARG1 (t / trade-off-02
+                                          :ARG0 p
+                                          :ARG1 (f2 / fairness)
+                                          :ARG2 (p2 / priority
+                                                :mod (o / other)
+                                                :example (p3 / profit-01)))))))))
+
+# ::id s073 ::doc_id 136
+# ::snt Key gui dance derived from Chapter I:  Develop, deploy and use AI systems in a way that adheres to the ethical principles of : respect for human autonomy, prevention of harm, fairness and explicability.
+(a / and
+      :op1 (d / dance-01
+            :ARG1 (g / gui)
+            :ARG1-of (d2 / derive-01
+                  :ARG2 (c / chapter
+                        :mod 1))
+            :ARG1-of (k / key-02))
+      :op2 (a2 / and
+            :op1 (d3 / develop-02
+                  :ARG1 (s / system
+                        :mod (ii / intelligent-01
+                              :mod (a3 / artificial))))
+            :op2 (d4 / deploy-01
+                  :ARG1 s)
+            :op3 (u / use-01
+                  :ARG1 s)
+            :manner (a4 / adhere-02
+                  :ARG1 (p / principle
+                        :mod (e / ethics)
+                        :example (a5 / and
+                              :op1 (r / respect-01
+                                    :ARG1 (a6 / autonomy
+                                          :mod (h / human)))
+                              :op2 (p2 / prevent-01
+                                    :ARG1 (h2 / harm-01))
+                              :op3 (f / fairness)
+                              :op4 (p3 / possible-01
+                                    :ARG1 (e2 / explain-01)))))))
+
+# ::id s074 ::doc_id 17
+# ::snt As legal scholar Frank Pasquale observes, “algorithms alone can’t meaningfully hold other algorithms accountable.” 127 While increased attention to the problems of fairness and bias in AI is a positive development, some have expressed concern over a “mathematization of ethics.” 128 As Shira Mitchell has argued: “As statistical thinkers in the political sphere we should be aware of the hazards of supplanting politics by an expert discourse.
+(m / multi-sentence
+      :snt1 (o / observe-01
+            :ARG0 (p / person
+                  :name (n / name
+                        :op1 "Frank"
+                        :op2 "Pasquale")
+                  :mod (s / scholar
+                        :topic (l / law)))
+            :ARG1 (p2 / possible-01
+                  :polarity -
+                  :ARG1 (h / hold-02
+                        :ARG0 (a / algorithm
+                              :mod (a2 / alone))
+                        :ARG1 (a3 / accountable-02
+                              :ARG0 (a4 / algorithm
+                                    :mod (o2 / other)))
+                        :ARG0-of (m2 / meaningful-05)))
+            :ARG1-of (c / cite-01
+                  :ARG2 127))
+      :snt2 (e / express-01
+            :ARG0 (s2 / some)
+            :ARG1 (c2 / concern-01
+                  :ARG0 (m3 / mathematics
+                        :topic (e2 / ethics))
+                  :ARG1 s2))
+      :snt3 (a5 / argue-01
+            :ARG0 (p3 / person
+                  :name (n2 / name
+                        :op1 "Shira"
+                        :op2 "Mitchell"))
+            :ARG1 (r / recommend-01
+                  :ARG1 (r2 / realize-01
+                        :ARG0 (w / we
+                              :ARG0-of (t / think-01
+                                    :ARG2 (s3 / statistics))
+                              :location (s4 / sphere
+                                    :mod (p4 / politics)))
+                        :ARG1 (d / danger
+                              :ARG1-of (c3 / cause-01
+                                    :ARG0 (s5 / supplant-01
+                                          :ARG1 (p5 / politics)
+                                          :ARG2 (d2 / discourse-01
+                                                :ARG0 (p6 / person
+                                                      :ARG1-of (e3 / expert-01))))))))
+            :li 128)
+      :snt4 (d3 / develop-01
+            :ARG1 (a6 / attend-02
+                  :ARG1 (p7 / problem
+                        :topic (a7 / and
+                              :op1 (f / fairness)
+                              :op2 (b / bias-01)
+                              :mod (a8 / artificial)))
+                  :ARG1-of (ii / increase-01))
+            :mod (p8 / positive)))
+
+# ::id s075 ::doc_id 273
+# ::snt A qualitative exploration of perceptions of algorithmic fairness.
+(e / explore-01
+      :ARG1 (p / perceive-01
+            :ARG1 (f / fairness
+                  :mod (a / algorithm)))
+      :mod (q / qualitative))
+
+# ::id s076 ::doc_id 269
+# ::snt A series of stra tegic themes, which will be touched on throughout the report, has to do with ethics and the validation and certification of AI technologies, the aim being confidence on the part of all stakeholders in their results: from validation in terms of theoretical proof to explicability, transparency, causality and fairness.
+(h / have-to-do-with-04
+      :ARG0 (s / series
+            :consist-of (t / theme
+                  :mod (s2 / strait-tegic)
+                  :ARG1-of (t2 / touch-on-04
+                        :time (t3 / throughout
+                              :op1 (r / report)))))
+      :ARG1 (a / and
+            :op1 (e / ethics)
+            :op2 (a2 / and
+                  :op1 (v / validate-01
+                        :ARG1 (t4 / technology
+                              :mod (a3 / artificial)))
+                  :op2 (c / certify-01
+                        :ARG1 t4)
+                  :ARG1-of (a4 / aim-01
+                        :ARG2 (c2 / confident-01
+                              :ARG1 (s3 / stake-01
+                                    :mod (a5 / all))
+                              :ARG2 (t5 / thing
+                                    :ARG2-of (r2 / result-01
+                                          :ARG1 (t6 / they))
+                                    :ARG1-of (r3 / range-01
+                                          :ARG3 (v2 / validate-01
+                                                :topic (p / prove-01
+                                                      :mod (t7 / theory)))
+                                          :ARG4 (a6 / and
+                                                :op1 (p2 / possible-01
+                                                      :ARG1 (e2 / explain-01))
+                                                :op2 (t8 / transparency)
+                                                :op3 (c3 / causality)
+                                                :op4 (f / fairness)))))))))
+
+# ::id s077 ::doc_id 256
+# ::snt This is especially true because fairness in AI sits at the intersection of technology and society and can’t be addressed with purely technical approaches.
+(c / cause-01
+      :ARG0 (a / and
+            :op1 (s / sit-01
+                  :ARG1 (f / fair-01
+                        :mod (a2 / artificial))
+                  :ARG2 (ii / intersect-01
+                        :ARG0 (t / technology)
+                        :ARG1 (s2 / society)))
+            :op2 (p / possible-01
+                  :polarity -
+                  :ARG1 (a3 / address-02
+                        :ARG1 f
+                        :ARG2 (a4 / approach-02
+                              :mod (t2 / technical
+                                    :ARG1-of (p2 / pure-02))))))
+      :ARG1 (t3 / true-01
+            :ARG1 (t4 / this)
+            :mod (e / especially)))
+
+# ::id s078 ::doc_id 351
+# ::snt The final two fairness types focus instead on cases of individual fairness, where cont ext-specific issues of effective bias are considered and assessed at the level of the individual agent.
+(ii / instead-of-91
+      :ARG1 (f / focus-01
+            :ARG0 (t / type
+                  :quant 2
+                  :mod (f2 / fairness)
+                  :mod (f3 / final))
+            :ARG2 (c / case-04
+                  :ARG1 (f4 / fairness
+                        :mod (ii2 / individual))
+                  :location-of (a / and
+                        :op1 (c2 / consider-02
+                              :ARG1 (ii3 / issue-02
+                                    :ARG0 (b / bias-01
+                                          :ARG0-of (e / effective-04))
+                                    :ARG1-of (s / specific-02)
+                                    :ARG1-of (e2 / extend-01)))
+                        :op2 (a2 / assess-01
+                              :ARG1 ii3)
+                        :manner (l / level
+                              :poss (a3 / agent
+                                    :mod (ii4 / individual)))))))
+
+# ::id s079 ::doc_id 52
+# ::snt It is important to recognise that the growing literature and toolsets on algorithmic fairness often only address part of the issue (that which can be quantified), and wider interventions to promote fairness and equality remain key to success.
+(ii / important-01
+      :ARG1 (r / recognize-02
+            :ARG1 (a / and
+                  :op1 (a2 / address-02
+                        :ARG0 (a3 / and
+                              :op1 (l / literature
+                                    :ARG1-of (g / grow-01)
+                                    :topic (f / fairness
+                                          :mod (a4 / algorithmic)))
+                              :op2 (t / toolset
+                                    :topic f))
+                        :ARG1 (p / part
+                              :part-of (ii2 / issue-02)
+                              :ARG1-of (q / quantify-01
+                                    :ARG1-of (p2 / possible-01)))
+                        :frequency (o / often)
+                        :mod (o2 / only))
+                  :op2 (r2 / remain-01
+                        :ARG1 (ii3 / intervene-01
+                              :ARG1 (p3 / promote-02
+                                    :ARG1 (a5 / and
+                                          :op1 (f2 / fairness)
+                                          :op2 (e / equal-01)))
+                              :ARG1-of (h / have-degree-91
+                                    :ARG2 (w / wide-02
+                                          :ARG1 ii3)
+                                    :ARG3 (m / more)))
+                        :ARG3 (k / key-02
+                              :ARG1 ii3
+                              :ARG2 (s / succeed-01))))))
+
+# ::id s080 ::doc_id 8
+# ::snt Fujitsu, as part of its focus on human-centric ICT, has outlined principles for human-centric AI, which mention that the company “will seek trustworthy AI through considering fairness and safety to prevent discrimination and harm”.
+(o / outline-01
+      :ARG0 (c / company
+            :name (n / name
+                  :op1 "Fujitsu"))
+      :ARG1 (p / principle
+            :topic (ii / intelligent-01
+                  :mod (a / artificial)
+                  :ARG1-of (c2 / center-01
+                        :ARG2 (h / human)))
+            :ARG0-of (m / mention-01
+                  :ARG1 (s / seek-01
+                        :ARG0 c
+                        :ARG1 ii
+                        :manner (c3 / consider-02
+                              :ARG0 c
+                              :ARG1 (a2 / and
+                                    :op1 (f / fairness)
+                                    :op2 (s2 / safe-01))
+                              :purpose (p2 / prevent-01
+                                    :ARG0 c
+                                    :ARG1 (a3 / and
+                                          :op1 (d / discriminate-02)
+                                          :op2 (h2 / harm-01))))
+                        :mod (t / trustworthy))))
+      :part-of (f2 / focus-01
+            :ARG0 c
+            :ARG2 (t2 / technology
+                  :mod (ii2 / information)
+                  :mod (c4 / cyber))))
+
+# ::id s081 ::doc_id 52
+# ::snt Algorithmic decision-making will inevitably increase over time; the aim should be to ensure that this happens in a way that acts to challenge bias, increase fairness and promote equality, rather than entrenching existing problems.
+(m / multi-sentence
+      :snt1 (ii / increase-01
+            :ARG1 (m2 / make-01
+                  :ARG0 (a / algorithm)
+                  :ARG1 (d / decide-01))
+            :ARG1-of (a2 / avoid-01
+                  :ARG1-of (p / possible-01
+                        :polarity -))
+            :mod (o / over-time))
+      :snt2 (r / recommend-01
+            :ARG1 (e / ensure-01
+                  :ARG1 (ii2 / increase-01
+                        :ARG1 (t / this)
+                        :manner (a3 / act-02
+                              :ARG0 t
+                              :ARG1 (a4 / and
+                                    :op1 (c / challenge-01
+                                          :ARG0 t
+                                          :ARG1 (b / bias-01))
+                                    :op2 (ii3 / increase-01
+                                          :ARG1 (f / fairness))
+                                    :op3 (p2 / promote-02
+                                          :ARG0 t
+                                          :ARG1 (e2 / equal-01)))
+                              :ARG1-of (ii4 / instead-of-91
+                                    :ARG2 (e3 / entrench-01
+                                          :ARG0 t
+                                          :ARG1 (p3 / problem
+                                                :ARG1-of (e4 / exist-01)))))))))
+
+# ::id s082 ::doc_id 212
+# ::snt For instance, in one of the most recent cases enshrined in the Report, the Dutch DPA found that the algorithmic system used by the government to automatically detect fraud in social benefits requests breached the principle of fairness, since the processing was considered “discriminatory” for having taken into account the dual nationality of the people requesting childcare benefits.
+(e / exemplify-01
+      :ARG0 (f / find-01
+            :ARG0 (o / organization
+                  :name (n / name
+                        :op1 "DPA")
+                  :mod (c / country
+                        :name (n2 / name
+                              :op1 "Netherlands")))
+            :ARG1 (b / breach-01
+                  :ARG0 (s / system
+                        :mod (a / algorithm)
+                        :ARG1-of (u / use-01
+                              :ARG0 (g / government-organization
+                                    :ARG0-of (g2 / govern-01))
+                              :ARG2 (d / detect-01
+                                    :ARG0 s
+                                    :ARG1 (d2 / defraud-01
+                                          :ARG1 (r / request-01
+                                                :ARG1 (b2 / benefit-01
+                                                      :mod (s2 / society))))
+                                    :manner (a2 / automatic))))
+                  :ARG1 (p / principle
+                        :mod (f2 / fairness))
+                  :ARG1-of (c2 / cause-01
+                        :ARG0 (c3 / consider-01
+                              :ARG1 (d3 / discriminate-02
+                                    :ARG0 (p2 / process-01)
+                                    :ARG1-of (c4 / cause-01
+                                          :ARG0 (t / take-into-account-04
+                                                :ARG0 p2
+                                                :ARG1 (n3 / nationality
+                                                      :mod (d4 / dual)
+                                                      :poss (p3 / person
+                                                            :ARG0-of (r2 / request-01
+                                                                  :ARG1 (b3 / benefit-01
+                                                                        :mod (c5 / care-03
+                                                                              :ARG1 (c6 / child))))))))))))
+            :ARG1-of (ii / include-91
+                  :ARG2 (c7 / case-04
+                        :ARG1-of (e2 / enshrinate-01
+                              :ARG0 (r3 / report))
+                        :ARG1-of (h / have-degree-91
+                              :ARG2 (r4 / recent)
+                              :ARG3 (m / most))))))
+
+# ::id s083 ::doc_id 17
+# ::snt This does not mean that such metrics are not useful: observational criteria may help understanding around 26 whether datasets and AI systems meet various notions of fairness and bias and subsequently help inform a richer discussion about the goals one hopes to achieve when deploying AI systems in complex social contexts.
+(a / and
+      :op1 (m / mean-01
+            :polarity -
+            :ARG1 (t / this)
+            :ARG2 (u / useful-05
+                  :polarity -
+                  :ARG1 (m2 / metric
+                        :mod (s / such))))
+      :op2 (p / possible-01
+            :ARG1 (h / help-01
+                  :ARG0 (c / criteria
+                        :mod (o / observe-01))
+                  :ARG1 (u2 / understand-01
+                        :ARG1 (t2 / truth-value
+                              :polarity-of (m3 / meet-01
+                                    :ARG0 (a2 / and
+                                          :op1 (d / dataset)
+                                          :op2 (s2 / system
+                                                :mod (ii / intelligent-01
+                                                      :mod (a3 / artificial))))
+                                    :ARG1 (n / notion
+                                          :mod (v / various)
+                                          :topic (a4 / and
+                                                :op1 (f / fairness)
+                                                :op2 (b / bias-01))))))
+                  :ARG0-of (h2 / help-01
+                        :ARG1 (ii2 / inform-01
+                              :ARG0 c
+                              :ARG2 (d2 / discuss-01
+                                    :ARG1 (g / goal
+                                          :ARG1-of (a5 / achieve-01
+                                                :ARG0 (o2 / one)
+                                                :ARG1-of (h3 / hope-01
+                                                      :ARG0 o2)
+                                                :time (d3 / deploy-01
+                                                      :ARG0 o2
+                                                      :ARG1 s2
+                                                      :ARG2 (c2 / context
+                                                            :mod (s3 / society)
+                                                            :mod (c3 / complex)))))
+                                    :ARG1-of (h4 / have-degree-91
+                                          :ARG2 (r / rich)
+                                          :ARG3 (m4 / more)))
+                              :time (s4 / subsequent))))))
+
+# ::id s084 ::doc_id 351
+# ::snt Considering fairness aware design and implementation from a workflow perspective will allow you, as a team, to concretis e and make explicit end -to-end paths of accountability in a clear and peer -reviewable manner.
+(a / allow-01
+      :ARG0 (c / consider-02
+            :ARG1 (a2 / and
+                  :op1 (d / design-01)
+                  :op2 (ii / implement-01)
+                  :ARG0-of (r / realize-01
+                        :ARG1 (f / fairness)))
+            :manner (p / perspective
+                  :mod (w / work-01
+                        :ARG1 (p2 / process-01))))
+      :ARG1 (a3 / and
+            :op1 (c2 / concretize-01
+                  :ARG0 (y / you
+                        :ARG0-of (h / have-org-role-91
+                              :ARG3 (t / team))))
+            :op2 (m / make-01
+                  :ARG0 y
+                  :ARG1 (p3 / path
+                        :path-of (a4 / accountable-02)
+                        :mod (e / end-to-end)
+                        :ARG1-of (e2 / explicit-03)))
+            :manner (m2 / manner
+                  :ARG1-of (c3 / clear-06)
+                  :ARG1-of (r2 / review-01
+                        :ARG0 (p4 / peer)
+                        :ARG1-of (p5 / possible-01)))))
+
+# ::id s085 ::doc_id 351
+# ::snt These challenges of fairness aware design at the problem formulation stage show the need for making diversity and inclusive participation a priority from the start of the AI project lifecycle .
+(s / show-01
+      :ARG0 (c / challenge-01
+            :ARG2 (d / design-01
+                  :ARG0-of (r / realize-01
+                        :ARG1 (f / fairness)))
+            :mod (t / this)
+            :time (s2 / stage
+                  :time-of (f2 / formulate-01
+                        :ARG1 (p / problem))))
+      :ARG1 (n / need-01
+            :ARG1 (p2 / prioritize-01
+                  :ARG1 (a / and
+                        :op1 (d2 / diversity)
+                        :op2 (p3 / participate-01
+                              :ARG0-of (ii / inclusive-02)))
+                  :time (f3 / from
+                        :op1 (s3 / start-01
+                              :ARG1 (l / lifecycle
+                                    :mod (p4 / project
+                                          :mod (ii2 / intelligent-01
+                                                :mod (a2 / artificial)))))))))
+
+# ::id s086 ::doc_id 351
+# ::snt The FAST Track Principles : Fairness, Accountability, Sustainability, and Transparency By becoming well -acquainted with the FA ST Track Principles, all members of your project delivery team will be better able to support a responsible environment for data innovation.
+(m / multi-sentence
+      :snt1 (a / and
+            :op1 (f / fairness)
+            :op2 (a2 / accountable-02)
+            :op3 (s / sustain-01)
+            :op4 (t / transparency)
+            :domain (p / principle
+                  :name (n / name
+                        :op1 "FAST"
+                        :op2 "Track")))
+      :snt2 (p2 / possible-01
+            :ARG1 (s2 / support-01
+                  :ARG0 (p3 / person
+                        :mod (a3 / all)
+                        :ARG0-of (h / have-org-role-91
+                              :ARG1 (t2 / team
+                                    :ARG0-of (d / deliver-01
+                                          :ARG1 (p4 / project))
+                                    :poss (y / you))
+                              :ARG2 (m2 / member)))
+                  :ARG1 (e / environment
+                        :ARG1-of (r / responsible-02
+                              :ARG2 (ii / innovate-01
+                                    :ARG1 (d2 / data)))))
+            :ARG1-of (h2 / have-degree-91
+                  :ARG2 (g / good-02)
+                  :ARG3 (m3 / more))
+            :condition (b / become-01
+                  :ARG1 p3
+                  :ARG2 (a4 / acquaint-01
+                        :ARG1 p3
+                        :ARG2 (p5 / principle
+                              :name (n2 / name
+                                    :op1 "FA"
+                                    :op2 "ST"
+                                    :op3 "Track"
+                                    :op4 "Principles"))
+                        :ARG1-of (w / well-09)))))
+
+# ::id s087 ::doc_id 351
+# ::snt Typically, AI project delivery workflows include department and delivery leads, technical Discriminatory Non -Harm Self-Assessment Step 1: Identify the fairness and bias mitigation dimensions that apply to the specific stage under consideration (for example, at the data pre -processing stage , dimensions of data fairness , design fa irness, and outcome fairness may be at issue).
+(ii / include-01
+      :ARG1 (a / and
+            :op1 (p / person
+                  :ARG0-of (l / lead-02
+                        :ARG1 (a2 / and
+                              :op1 (d / department)
+                              :op2 (d2 / deliver-01))))
+            :op2 (p2 / person
+                  :ARG0-of (a3 / assess-01
+                        :ARG1 (s / self)
+                        :ARG2 (h / harm-01
+                              :polarity -
+                              :mod (t / technical))
+                        :mod (s2 / step
+                              :mod 1)))
+            :op3 (ii2 / identify-01
+                  :ARG1 (d3 / dimension
+                        :ARG1-of (a4 / apply-02
+                              :ARG2 (s3 / stage
+                                    :ARG1-of (s4 / specific-02)
+                                    :ARG1-of (c / consider-02)
+                                    :example (p3 / possible-01
+                                          :ARG1 (ii3 / issue-02
+                                                :ARG0 (d4 / dimension
+                                                      :topic (a5 / and
+                                                            :op1 (f / fairness
+                                                                  :mod (d5 / data))
+                                                            :op2 (f2 / fairness
+                                                                  :mod (d6 / design-01))
+                                                            :op3 (f3 / fairness
+                                                                  :mod (o / outcome))))))))
+                        :ARG0-of (m / mitigate-01
+                              :ARG1 (b / bias-01)))))
+      :ARG2 (f4 / flow-01
+            :ARG1 (d7 / deliver-01
+                  :ARG1 (ii4 / intelligent-01
+                        :mod (a6 / artificial)))
+            :ARG1-of (t2 / typical-02)))
+
+# ::id s088 ::doc_id 417
+# ::snt States and their constituencies may have different preferences regarding tradeoffs between fairness and accuracy, or privacy and productivity, which may not be easily addressed at the EU level.
+(p / possible-01
+      :ARG1 (p2 / prefer-01
+            :ARG0 (a / and
+                  :op1 (s / state)
+                  :op2 (c / constituency
+                        :poss s))
+            :ARG1 (t / tradeoff-01
+                  :ARG2 (o / or
+                        :op1 (f / fairness)
+                        :op2 (a2 / accuracy))
+                  :ARG3 (a3 / and
+                        :op1 (p3 / privacy)
+                        :op2 (p4 / productive-03))
+                  :ARG1-of (a4 / address-02
+                        :ARG1-of (p5 / possible-01
+                              :polarity -)
+                        :manner (e / easy-05)
+                        :prep-at (l / level
+                              :mod (o2 / organization
+                                    :name (n / name
+                                          :op1 "EU")))))
+            :ARG1-of (d / differ-02)))
+
+# ::id s089 ::doc_id 201
+# ::snt It must be possible either to speak of fairness of algorithms in the strict sense (but does this actually mean anything?), or to ensure that the algorithm will not behave in an undesirable way, even though we are not fully able to explain in principle what we mean by “undesirable”.
+(o / obligate-01
+      :ARG2 (p / possible-01
+            :ARG1 (o2 / or
+                  :op1 (s / speak-01
+                        :ARG1 (f / fairness
+                              :beneficiary (a / algorithm)
+                              :manner (s2 / sense
+                                    :mod (s3 / strict)))
+                        :concession (m / mean-01
+                              :ARG2 (a2 / anything)
+                              :ARG1-of (a3 / actual-02)
+                              :polarity (a4 / amr-unknown))
+                        :ARG1-of m)
+                  :op2 (e / ensure-01
+                        :ARG1 (b / behave-01
+                              :polarity -
+                              :ARG0 a
+                              :ARG1 (w / way
+                                    :ARG1-of (d / desire-01
+                                          :polarity -)))))
+            :concession (p2 / possible-01
+                  :polarity -
+                  :ARG1 (e2 / explain-01
+                        :ARG0 (w2 / we)
+                        :ARG1 (t / thing
+                              :ARG2-of (m2 / mean-01
+                                    :ARG0 w2
+                                    :ARG1 (d2 / desirable-01
+                                          :polarity -)))
+                        :mod (ii / in-principle))
+                  :degree (f2 / full))))
+
+# ::id s090 ::doc_id 6
+# ::snt Considering ethical concepts such as justice, fairness, transparency, and accountability allows for valuable debate about the societal impacts of AI, and the role of AI in our lives.52 There is also an academic research community devoted to addressing ethical issues.53 Ethics have helped those researching and developing AI to define boundaries for themselves.
+(m / multi-sentence
+      :snt1 (a / allow-01
+            :ARG0 (c / consider-02
+                  :ARG1 (c2 / concept
+                        :mod (e / ethics)
+                        :example (a2 / and
+                              :op1 (j / justice)
+                              :op2 (f / fairness)
+                              :op3 (t / transparency)
+                              :op4 (a3 / accountable-02))))
+            :ARG1 (d / debate-01
+                  :ARG1 (a4 / and
+                        :op1 (ii / impact-01
+                              :ARG0 (ii2 / intelligent-01
+                                    :mod (a5 / artificial))
+                              :ARG1 (s / society))
+                        :op2 (r / role
+                              :poss ii2
+                              :topic (l / live-01
+                                    :ARG0 (w / we))))
+                  :ARG1-of (v / value-02)))
+      :snt2 (c3 / community
+            :mod (a6 / academia)
+            :ARG1-of (d2 / devote-01
+                  :ARG2 (a7 / address-02
+                        :ARG0 c3
+                        :ARG1 (ii3 / issue-02
+                              :ARG0 (e2 / ethics))))
+            :mod (a8 / also))
+      :snt3 (h / help-01
+            :li 53
+            :ARG0 (e3 / ethics)
+            :ARG1 (d3 / define-01
+                  :ARG0 (p / person
+                        :ARG0-of (r2 / research-01
+                              :ARG1 (ii4 / intelligent-01
+                                    :mod a5)))
+                  :ARG0-of (d4 / develop-02
+                        :ARG1 ii4))
+            :ARG1 (b / boundary)
+            :beneficiary p)
+      :ARG2 p)
+
+# ::id s091 ::doc_id 187
+# ::snt The fact that a decision procedure is automated (or partly automated) may also encourage public discussion about the criteria used by the system, the underlying logic and the expectations of society in this respec t, in particular in terms of fairness or non -discrimination.
+(p / possible-01
+      :ARG1 (e / encourage-01
+            :ARG0 (o / or
+                  :op1 (a / automate-01
+                        :ARG1 (p2 / procedure
+                              :purpose (d / decide-01)))
+                  :op2 (a2 / automate-01
+                        :ARG1 p2
+                        :degree (p3 / part)))
+            :ARG1 (d2 / discuss-01
+                  :ARG1 (a3 / and
+                        :op1 (c / criteria
+                              :ARG1-of (u / use-01
+                                    :ARG0 (s / system)))
+                        :op2 (l / logic
+                              :ARG0-of (u2 / underlie-01))
+                        :op3 (e2 / expect-01
+                              :ARG0 (s2 / society)
+                              :topic (r / resource
+                                    :mod (t / this)))
+                        :topic (o2 / or
+                              :op1 (f / fairness)
+                              :op2 (d3 / discriminate-01
+                                    :polarity -)
+                              :mod (p4 / particular)))
+                  :ARG1-of (p5 / public-02))
+            :mod (a4 / also)))
+
+# ::id s092 ::doc_id 187
+# ::snt ORCAA reviews algorithms using an ' ethical matrix ' including criteria such as ' accuracy, consistency, bias, transpare ncy, fairness and timeliness '.235 8.6.
+(r / review-01
+      :ARG0 (o / organization
+            :name (n / name
+                  :op1 "ORCAA"))
+      :ARG1 (a / algorithm)
+      :manner (u / use-01
+            :ARG0 o
+            :ARG1 (m / matrix
+                  :mod (e / ethics)
+                  :ARG2-of (ii / include-01
+                        :ARG1 (c / criteria
+                              :example (a2 / and
+                                    :op1 (a3 / accuracy)
+                                    :op2 (c2 / consistent-02)
+                                    :op3 (b / bias-01)
+                                    :op4 (t / transpare-ncy)
+                                    :op5 (f / fairness)
+                                    :op6 (t2 / timely))))))
+      :ARG1-of (h / have-degree-91
+            :ARG2 a2
+            :op1 235
+            :op2 8.6)
+      :ARG3 (e2 / equal))
+
+# ::id s093 ::doc_id 187
+# ::snt In a nutshell, fairness adds an extra constraint to the learning algorithm.
+(a / add-02
+      :ARG0 (f / fairness)
+      :ARG1 (c / constraint
+            :mod (e / extra))
+      :ARG2 (a2 / algorithm
+            :instrument-of (l / learn-01))
+      :manner (n / nutshell))
+
+# ::id s094 ::doc_id 160
+# ::snt Beyond distributive fairness in algorithm ic decision -making: Feature selection for procedurally fair learning.
+(a / and
+      :op1 (b / beyond
+            :op1 (f / fairness
+                  :mod (d / distributive)
+                  :topic (m / make-18
+                        :ARG1 (d2 / decide-01)
+                        :mod (a2 / algorithm))))
+      :op2 (s / select-01
+            :ARG1 (f2 / feature)
+            :purpose (l / learn-01
+                  :ARG1-of (f3 / fair-01
+                        :manner (p / procedure)))))
+
+# ::id s095 ::doc_id 110
+# ::snt In regulatory matters, a system’s autonomy raises unique questions around liability, assurance, and fairness as well as risk and safety - and even ownership of creative content[footnote 3] - in a way which is distinct to AI, and these questions increase with the relative complexity of the algorithm.
+(a / and
+      :op1 (r / raise-01
+            :ARG0 (a2 / autonomy
+                  :poss (s / system))
+            :ARG1 (q / question-01
+                  :ARG1 (a3 / and
+                        :op1 (l / liable-01)
+                        :op2 (a4 / assure-01)
+                        :op3 (f / fairness)
+                        :op4 (a5 / and
+                              :op1 (r2 / risk-01)
+                              :op2 (s2 / safe-01))
+                        :op5 (o / own-01
+                              :ARG1 (c / content
+                                    :ARG1-of (c2 / create-01))
+                              :mod (e / even)))
+                  :ARG1-of (u / unique-01)
+                  :manner (d / distinct
+                        :beneficiary (ii / intelligent-01
+                              :mod (a6 / artificial))))
+            :topic (m / matter
+                  :mod (r3 / regulate-01))
+            :ARG1-of (d2 / describe-01
+                  :ARG0 (f2 / footnote
+                        :mod 3)))
+      :op2 (ii2 / increase-01
+            :ARG0 (c3 / complexity
+                  :ARG2-of (r4 / relative-05)
+                  :poss (a7 / algorithm))
+            :ARG1 q))
+
+# ::id s096 ::doc_id 192
+# ::snt Furthermore, XAI helps to determin e a model’s precision, fairness, transparency, and results in AI based decision making (101).
+(a / and
+      :op2 (h / help-01
+            :ARG0 (p / product
+                  :name (n / name
+                        :op1 "XAI"))
+            :ARG1 (d / determine-01
+                  :ARG0 p
+                  :ARG1 (a2 / and
+                        :op1 (p2 / precision
+                              :poss (m / model))
+                        :op2 (f / fairness
+                              :poss m)
+                        :op3 (t / transparency
+                              :poss m)
+                        :op4 (r / result-01
+                              :ARG1 (m2 / make-01
+                                    :ARG1 (d2 / decide-01)
+                                    :ARG1-of (b / base-02
+                                          :ARG2 (ii / intelligent-01
+                                                :mod (a3 / artificial)))))))
+            :ARG1-of (d3 / describe-01
+                  :ARG0 (p3 / publication
+                        :ARG1-of (c / cite-01
+                              :ARG2 101)))))
+
+# ::id s097 ::doc_id 212
+# ::snt Our research shows that even in those cases where Courts and DPAs decided that the ADM at issue does not fall under Article 22 GDPR since it does not meet the required criteria, they have still enforced other relevant provisions of the GDPR, such as the principles of transparency, fairness, data minimization, purpose limitation, and other provisions.
+(s / show-01
+      :ARG0 (r / research-01
+            :ARG0 (w / we))
+      :ARG1 (e / enforce-01
+            :ARG0 (a / and
+                  :op1 (c / court)
+                  :op2 (g / government-organization
+                        :name (n / name
+                              :op1 "DPA")))
+            :ARG1 (p / provision
+                  :ARG1-of (r2 / relevant-01
+                        :ARG2 (l / law
+                              :name (n2 / name
+                                    :op1 "GDPR")))
+                  :mod (o / other)
+                  :example (p2 / principle
+                        :example (a2 / and
+                              :op1 (t / transparency)
+                              :op2 (f / fairness)
+                              :op3 (m / minimize-01
+                                    :ARG1 (d / data))
+                              :op4 (l2 / limit-01
+                                    :ARG1 (p3 / purpose))
+                              :op5 (p4 / provision
+                                    :mod (o2 / other)))))
+            :mod (s2 / still)
+            :concession (c2 / case-03
+                  :ARG1 (d2 / decide-01
+                        :ARG0 a
+                        :ARG1 (f2 / fall-01
+                              :polarity -
+                              :ARG1 (p5 / product
+                                    :name (n3 / name
+                                          :op1 "ADM")
+                                    :ARG0-of (ii / issue-02))
+                              :ARG4 (u / under
+                                    :op1 (a3 / article
+                                          :mod 22
+                                          :part-of l)))
+                        :ARG1-of (c3 / cause-01
+                              :ARG0 (m2 / meet-01
+                                    :polarity -
+                                    :ARG0 p5
+                                    :ARG1 (c4 / criteria
+                                          :ARG1-of (r3 / require-01)))))
+                  :mod (t2 / that))))
+
+# ::id s098 ::doc_id 227
+# ::snt Examples of such issues are data responsibility and privacy, fairness, inclusion, moral agency, value alignment, accountability, transparency, trust, and technology misuse.
+(e / exemplify-01
+      :ARG0 (a / and
+            :op1 (a2 / and
+                  :op1 (r / responsible-03
+                        :ARG1 (d / data))
+                  :op2 (p / privacy))
+            :op2 (f / fair-01)
+            :op3 (ii / include-01)
+            :op4 (a3 / agency
+                  :ARG1-of (m / moral-02))
+            :op5 (a4 / align-01
+                  :ARG2 (v / value))
+            :op6 (a5 / accountable-02)
+            :op7 (t / transparency)
+            :op8 (t2 / trust-01)
+            :op9 (m2 / misuse-01
+                  :ARG1 (t3 / technology)))
+      :ARG1 (ii2 / issue-02
+            :mod (s / such)))
+
+# ::id s099 ::doc_id 187
+# ::snt There is therefore generally a trade- off between fairness and accuracy.
+(c / cause-01
+      :ARG1 (t / trade-off-02
+            :ARG1 (f / fairness)
+            :ARG2 (a / accurate))
+      :ARG1-of (g / general-02))
+
