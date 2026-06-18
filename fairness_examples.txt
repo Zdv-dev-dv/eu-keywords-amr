@@ -1,0 +1,206 @@
+# ::id doc_135
+# ::snt Fairness refers to a variety of ideas known as equity, impartiality, egalitarianism, non-discrimination and justice.
+(r / refer-01
+      :ARG0 (f / fairness)
+      :ARG1 (ii / idea
+            :mod (v / variety)
+            :ARG1-of (k / know-02
+                  :ARG2 (a / and
+                        :op1 (e / equity)
+                        :op2 (ii2 / impartiality)
+                        :op3 (e2 / egalitarianism)
+                        :op4 (d / discriminate-01
+                              :polarity -)
+                        :op5 (j / justice)))))
+
+# ::id doc_352
+# ::snt Design fairness means that the activities of system designers are thoughtful, reflective, and mindful of the potential for standpoint bias by the development team.
+(m / mean-01
+      :ARG1 (f / fairness
+            :mod (d / design-01))
+      :ARG2 (a / and
+            :op1 (t / thoughtful
+                  :domain (a2 / activity-06
+                        :ARG0 (p / person
+                              :ARG0-of (d2 / design-01
+                                    :ARG1 (s / system)))))
+            :op2 (r / reflect-01
+                  :ARG1 a2)
+            :op3 (m2 / meditate-01
+                  :ARG0 a2
+                  :ARG1 (p2 / potential
+                        :domain (b / bias-01
+                              :ARG0 (t2 / team
+                                    :ARG0-of (d3 / develop-02))
+                              :ARG1 (s2 / standpoint))))))
+
+# ::id doc_108
+# ::snt For example, regulators will be tasked with deciding what 'fairness' or 'transparency' means for AI development or use in the context of their sector or domain.
+(t / task-01
+      :ARG1 (r / regulate-01)
+      :ARG2 (d / decide-01
+            :ARG0 r
+            :ARG1 (t2 / thing
+                  :ARG2-of (m / mean-01
+                        :ARG1 (o / or
+                              :op1 (f / fairness)
+                              :op2 (t3 / transparency))
+                        :ARG3 (o2 / or
+                              :op1 (d2 / develop-02
+                                    :ARG1 (ii / intelligent-01
+                                          :mod (a / artificial)))
+                              :op2 (u / use-01
+                                    :ARG1 ii)
+                              :location (c / context
+                                    :mod (o3 / or
+                                          :op1 (s / sector
+                                                :poss r)
+                                          :op2 (d3 / domain
+                                                :poss r)))))))
+      :ARG0-of (e / exemplify-01))
+
+# ::id doc_388
+# ::snt Fairness implies that algorithmic decisions do not create a discriminatory or unjust impact on the end users.
+(ii / imply-01
+      :ARG0 (f / fairness)
+      :ARG1 (c / create-01
+            :polarity -
+            :ARG0 (t / thing
+                  :ARG1-of (d / decide-01)
+                  :mod (a / algorithm))
+            :ARG1 (ii2 / impact-01
+                  :ARG0 t
+                  :ARG1 (p / person
+                        :ARG0-of (u / use-01
+                              :mod (e / end)))
+                  :ARG1-of (d2 / discriminate-02)
+                  :ARG1-of (j / just-02
+                        :polarity -))))
+
+# ::id doc_147
+# ::snt Overall, new rules and regulations should aim to ensure explainability, transparency, fairness, trust, verifiability, safety and security against attacks.
+(r / recommend-01
+      :ARG1 (a / aim-01
+            :ARG0 (a2 / and
+                  :op1 (r2 / rule-01)
+                  :op2 (r3 / regulate-01)
+                  :ARG1-of (n / new-01))
+            :ARG1 (e / ensure-01
+                  :ARG0 a2
+                  :ARG1 (a3 / and
+                        :op1 (p / possible-01
+                              :ARG1 (e2 / explain-01))
+                        :op2 (t / transparency)
+                        :op3 (f / fairness)
+                        :op4 (t2 / trust-01)
+                        :op5 (p2 / possible-01
+                              :polarity -
+                              :ARG1 (v / verify-01))
+                        :op6 (s / safe-01)
+                        :op7 (s2 / security)
+                        :prep-against (a4 / attack-01))))
+      :mod (o / overall))
+
+# ::id doc_104
+# ::snt All of the parties involved must be aware of their responsibility to consider ethical values such as participation, fairness, equal treatment, self-determination and transparency.
+(o / obligate-01
+      :ARG2 (r / realize-01
+            :ARG0 (p / party
+                  :mod (a / all)
+                  :ARG1-of (ii / involve-01))
+            :ARG1 (r2 / responsible-03
+                  :ARG0 p
+                  :ARG1 (c / consider-02
+                        :ARG0 p
+                        :ARG1 (v / value
+                              :mod (e / ethics)
+                              :example (a2 / and
+                                    :op1 (p2 / participate-01)
+                                    :op2 (f / fairness)
+                                    :op3 (t / treat-01
+                                          :ARG1-of (e2 / equal-01))
+                                    :op4 (d / determine-01
+                                          :ARG0 p
+                                          :ARG1 p)
+                                    :op5 (t2 / transparency)))))))
+
+# ::id doc_160
+# ::snt In this section we emphasise the importance of assessing and questioning the fairness of algorithmic systems used for decision-making.
+(e / emphasize-01
+      :ARG0 (w / we)
+      :ARG1 (ii / important-01
+            :ARG1 (a / and
+                  :op1 (a2 / assess-01
+                        :ARG1 (f / fairness
+                              :ARG1 (s / system
+                                    :mod (a3 / algorithm)
+                                    :ARG1-of (u / use-01
+                                          :ARG2 (m / make-01
+                                                :ARG1 (d / decide-01))))))
+                  :op2 (q / question-03
+                        :ARG1 f)))
+      :location (s2 / section
+            :mod (t / this)))
+
+# ::id doc_145
+# ::snt Fairness and justice: The development of AI should promote fairness and justice, the rights and interests of stakeholders and promote equality of opportunity.
+(m / multi-sentence
+      :snt1 (a / and
+            :op1 (f / fairness)
+            :op2 (j / justice))
+      :snt2 (r / recommend-01
+            :ARG1 (a2 / and
+                  :op1 (p / promote-02
+                        :ARG0 (d / develop-02
+                              :ARG1 (a3 / artificial))
+                        :ARG1 (a4 / and
+                              :op1 (f2 / fairness)
+                              :op2 (j2 / justice)))
+                  :op2 (p2 / promote-02
+                        :ARG0 d
+                        :ARG1 (a5 / and
+                              :op1 (r2 / right-05
+                                    :ARG1 (s / stake-01))
+                              :op2 (ii / interest-01
+                                    :ARG1 s)))
+                  :op3 (p3 / promote-02
+                        :ARG0 d
+                        :ARG1 (e / equal-01
+                              :ARG3 (o / opportunity))))))
+
+# ::id doc_201
+# ::snt They would guarantee that algorithms practise fairness and non-discrimination.
+(g / guarantee-01
+      :ARG0 (t / they)
+      :ARG1 (p / practice-01
+            :ARG0 (a / algorithm)
+            :ARG1 (a2 / and
+                  :op1 (f / fairness)
+                  :op2 (d / discriminate-01
+                        :polarity -))))
+
+# ::id doc_281
+# ::snt Scientists must also study to what extent justice and fairness considerations can be designed into the system, and how to accomplish this within the bounds of current engineering techniques.
+(o / obligate-01
+      :ARG1 (s / scientist)
+      :ARG2 (s2 / study-01
+            :ARG0 s
+            :ARG1 (a / and
+                  :op1 (e / extent
+                        :degree-of (p / possible-01
+                              :ARG1 (d / design-01
+                                    :ARG1 (s3 / system)
+                                    :ARG3 (a2 / and
+                                          :op1 (j / justice)
+                                          :op2 (f / fairness)
+                                          :ARG1-of (c / consider-02)))))
+                  :op2 (t / thing
+                        :manner-of (a3 / accomplish-01
+                              :ARG1 d
+                              :manner (b / bound-09
+                                    :ARG0 (t2 / technique
+                                          :mod (e2 / engineer-01)
+                                          :time (c2 / current))
+                                    :ARG1 d))))
+            :mod (a4 / also)))
+
