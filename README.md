@@ -10,7 +10,7 @@ fairness ego summary = obsolete, produit de CHAI ego network pipeline
 
 fairness examples = 10 AMR avec fairness ; attention tous les AMR n'ont pas ete extraits du corpus MapAIE
 
-fairness sample 100 = 100 phrases avec fairness ; attention toutes les phrases n'ont pas ete extraites du corpus MapAIE
+fairness sample 100 obs = 100 phrases avec fairness ; attention toutes les phrases n'ont pas ete extraites du corpus MapAIE
 
 fairness sample doc actor = obsolete, mauvais appariement issu de CHAI ego network pipeline
 
