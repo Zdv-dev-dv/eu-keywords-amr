@@ -12,6 +12,6 @@ fairness examples = 10 AMR avec fairness ; attention tous les AMR n'ont pas ete 
 
 fairness sample 100 obs = 100 phrases avec fairness ; attention toutes les phrases n'ont pas ete extraites du corpus MapAIE
 
-fairness sample doc actor = obsolete, mauvais appariement issu de CHAI ego network pipeline
+fairness sample doc actor map obs = obsolete, mauvais appariement issu de CHAI ego network pipeline
 
-fairness sample penmans = 100 AMR avec fairness ; attention tous les AMR n'ont pas ete extraits du corpus MapAIE
+fairness sample penmans obs = 100 AMR avec fairness ; attention tous les AMR n'ont pas ete extraits du corpus MapAIE
